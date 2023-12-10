@@ -1,0 +1,114 @@
+2023-12-05 22:33:24,487 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Configure stats pid to 16500
+2023-12-05 22:33:24,487 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2023-12-05 22:33:24,487 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\settings
+2023-12-05 22:33:24,487 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231205_223324-dymw3zj5\logs\debug.log
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231205_223324-dymw3zj5\logs\debug-internal.log
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_init.py:init():546] calling init triggers
+2023-12-05 22:33:24,488 INFO    MainThread:16500 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-12-05 22:33:24,489 INFO    MainThread:16500 [wandb_init.py:init():568] re-initializing run, found existing run on stack: qswnyi0g
+2023-12-05 22:33:24,490 INFO    MainThread:16500 [wandb_run.py:_finish():1854] finishing run hyperloopupv/1gdlppo/qswnyi0g
+2023-12-05 22:33:24,492 ERROR   MainThread:16500 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-12-05 22:33:24,492 INFO    MainThread:16500 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-05 22:33:24,492 INFO    MainThread:16500 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-12-05 22:33:24,492 INFO    MainThread:16500 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-12-05 22:33:24,493 INFO    MainThread:16500 [wandb_run.py:_restore():2066] restore
+2023-12-05 22:33:24,493 INFO    MainThread:16500 [wandb_run.py:_restore():2072] restore done
+2023-12-05 22:33:35,194 INFO    MainThread:16500 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-12-05 22:33:35,197 INFO    MainThread:16500 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-12-05 22:33:35,202 INFO    MainThread:16500 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-12-05 22:33:35,205 INFO    MainThread:16500 [wandb_init.py:init():602] starting backend
+2023-12-05 22:33:35,205 INFO    MainThread:16500 [wandb_init.py:init():606] setting up manager
+2023-12-05 22:33:35,208 INFO    MainThread:16500 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-12-05 22:33:35,212 INFO    MainThread:16500 [wandb_init.py:init():613] backend started and connected
+2023-12-05 22:33:35,215 INFO    MainThread:16500 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-12-05 22:33:35,216 INFO    MainThread:16500 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-05 22:33:35,216 INFO    MainThread:16500 [wandb_init.py:init():701] updated telemetry
+2023-12-05 22:33:35,220 INFO    MainThread:16500 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-12-05 22:33:36,662 INFO    MainThread:16500 [wandb_run.py:_on_init():2133] communicating current version
+2023-12-05 22:33:36,723 INFO    MainThread:16500 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-12-05 22:33:36,723 INFO    MainThread:16500 [wandb_init.py:init():789] starting run threads in backend
+2023-12-05 22:33:36,976 INFO    MainThread:16500 [wandb_run.py:_console_start():2114] atexit reg
+2023-12-05 22:33:36,976 INFO    MainThread:16500 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-12-05 22:33:36,976 INFO    MainThread:16500 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-12-05 22:33:36,977 INFO    MainThread:16500 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-12-05 22:33:36,977 INFO    MainThread:16500 [wandb_init.py:init():831] run started, returning control to user process
+2023-12-05 22:33:37,033 INFO    MainThread:16500 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 1gdlppo/PPO_2, True
+2023-12-05 22:33:37,038 INFO    MainThread:16500 [wandb_watch.py:watch():51] Watching
+2023-12-05 22:33:37,040 INFO    MainThread:16500 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 1250000, '_num_timesteps_at_start': 0, 'seed': 42, 'action_noise': 'None', 'start_time': 1701812017012610200, 'learning_rate': '<function linear_schedule.<locals>.func at 0x0000023E9AAAD820>', 'tensorboard_log': '1gdlppo/', '_last_obs': '[[19.5 19.5 19.5 19.5]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x0000023E9AB91880>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 10. -inf -10. -45.], [23. inf 10. 45.], (4,), float32)', 'action_space': 'Box(-100.0, 50.0, (1,), float32)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.2, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'batch_size': 512, 'n_epochs': 10, 'clip_range': '<function constant_fn.<locals>.func at 0x0000023E9C836A60>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x0000023E9AAAD820>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x0000023E9E612AF0>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=4, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=4, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=1, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x0000023E9C818370>'}
+2023-12-05 22:34:53,617 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:36:12,251 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:37:28,175 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:38:46,470 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:40:02,825 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:41:20,966 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:42:38,065 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:43:56,305 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:45:12,593 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:46:31,857 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:47:49,102 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:49:06,884 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:50:23,794 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:51:40,983 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:52:56,469 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:54:11,130 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:55:24,325 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:56:42,316 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:57:59,489 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 22:59:17,931 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:00:35,697 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:01:54,108 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:03:10,295 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:04:27,885 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:05:44,990 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:07:02,635 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:08:18,665 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:09:35,883 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:10:51,625 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:12:08,993 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:13:25,570 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:14:43,606 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:16:00,229 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:17:17,671 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:18:33,778 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:19:51,825 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:21:08,170 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:22:26,448 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:23:43,130 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:24:57,624 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:26:12,692 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:27:27,650 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:28:40,664 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:29:55,297 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:31:08,157 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:32:22,648 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:33:34,543 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:34:49,069 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:36:01,088 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:37:15,325 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:38:27,718 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:39:41,047 INFO    MainThread:16500 [sb3.py:save_model():153] Saving model checkpoint to models/dymw3zj5\model.zip
+2023-12-05 23:40:44,779 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Configure stats pid to 16500
+2023-12-05 23:40:44,780 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2023-12-05 23:40:44,780 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\settings
+2023-12-05 23:40:44,780 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-05 23:40:44,780 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-05 23:40:44,780 INFO    MainThread:16500 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-05 23:40:44,781 INFO    MainThread:16500 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231205_234044-jikpy1al\logs\debug.log
+2023-12-05 23:40:44,781 INFO    MainThread:16500 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231205_234044-jikpy1al\logs\debug-internal.log
+2023-12-05 23:40:44,781 INFO    MainThread:16500 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000023EA09AB550>
+2023-12-05 23:40:44,781 INFO    MainThread:16500 [wandb_init.py:init():546] calling init triggers
+2023-12-05 23:40:44,781 INFO    MainThread:16500 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-12-05 23:40:44,782 INFO    MainThread:16500 [wandb_init.py:init():568] re-initializing run, found existing run on stack: dymw3zj5
+2023-12-05 23:40:44,783 INFO    MainThread:16500 [wandb_run.py:_finish():1854] finishing run hyperloopupv/1gdlppo/dymw3zj5
+2023-12-05 23:40:44,783 INFO    MainThread:16500 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-12-05 23:40:44,784 INFO    MainThread:16500 [wandb_run.py:_restore():2066] restore
+2023-12-05 23:40:44,784 INFO    MainThread:16500 [wandb_run.py:_restore():2072] restore done
+2023-12-05 23:40:57,254 INFO    MainThread:16500 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-12-05 23:40:57,256 INFO    MainThread:16500 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-12-05 23:40:57,262 INFO    MainThread:16500 [wandb_run.py:_footer_sync_info():3380] logging synced files
