@@ -2516,3 +2516,191 @@ _info {
 2023-12-10 02:03:47,402 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
 2023-12-10 02:03:47,402 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
 2023-12-10 02:03:52,580 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:03:57,583 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:02,393 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:04:02,393 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:04:02,660 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:07,663 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:12,666 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:16,798 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:04:17,398 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:04:17,399 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:04:18,629 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:23,633 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:28,648 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:32,398 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:04:32,398 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:04:34,627 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:37,216 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,217 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,217 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,217 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,218 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,218 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,218 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,219 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,219 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,219 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,219 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,220 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,220 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:04:37,239 DEBUG   SenderThread:9056 [sender.py:send():336] send: files
+2023-12-10 02:04:37,239 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file model.zip with policy live
+2023-12-10 02:04:37,687 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\model.zip
+2023-12-10 02:04:38,082 INFO    wandb-upload_0:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\3hfw05mg-model.zip
+2023-12-10 02:04:40,241 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:45,244 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:46,798 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:04:47,398 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:04:47,398 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:04:50,653 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:04:55,655 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:00,659 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:02,408 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:05:02,409 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:05:05,666 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:10,668 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:15,670 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:16,799 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:05:17,422 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:05:17,423 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:05:21,607 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:26,609 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:31,446 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,446 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,447 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,447 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,447 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,448 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,448 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,448 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,449 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,449 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,449 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,450 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,450 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:05:31,468 DEBUG   SenderThread:9056 [sender.py:send():336] send: files
+2023-12-10 02:05:31,468 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file model.zip with policy live
+2023-12-10 02:05:31,911 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\model.zip
+2023-12-10 02:05:32,367 INFO    wandb-upload_1:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\u7tq5mgp-model.zip
+2023-12-10 02:05:32,376 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:32,419 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:05:32,420 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:05:37,694 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:42,697 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:46,800 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:05:47,416 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:05:47,416 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:05:48,688 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:53,690 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:05:58,693 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:02,410 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:06:02,410 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:06:03,710 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:08,712 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:13,714 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:16,800 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:06:17,418 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:06:17,418 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:06:19,667 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:24,668 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:26,264 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,264 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,265 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,265 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,265 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,266 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,266 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,266 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,266 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,267 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,267 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,267 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,268 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:06:26,286 DEBUG   SenderThread:9056 [sender.py:send():336] send: files
+2023-12-10 02:06:26,286 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file model.zip with policy live
+2023-12-10 02:06:27,123 INFO    wandb-upload_0:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\0rkkq5ce-model.zip
+2023-12-10 02:06:27,138 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\model.zip
+2023-12-10 02:06:30,289 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:32,420 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:06:32,420 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:06:35,690 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:40,694 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:45,696 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:46,801 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:06:47,418 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:06:47,418 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:06:51,646 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:06:56,655 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:01,657 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:02,418 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:07:02,419 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:07:07,651 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:12,653 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:16,801 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:07:17,416 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:07:17,416 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:07:17,680 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:21,735 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,736 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,736 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,736 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,737 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,737 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,737 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,738 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,738 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,738 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,739 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,739 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,739 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:07:21,756 DEBUG   SenderThread:9056 [sender.py:send():336] send: files
+2023-12-10 02:07:21,756 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file model.zip with policy live
+2023-12-10 02:07:22,179 DEBUG   SenderThread:9056 [sender.py:send():336] send: history
+2023-12-10 02:07:22,179 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: summary_record
+2023-12-10 02:07:22,180 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-12-10 02:07:22,365 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\model.zip
+2023-12-10 02:07:22,365 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\events.out.tfevents.1702166746.DESKTOP-7D88GMF.22124.2
+2023-12-10 02:07:22,366 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\wandb-summary.json
+2023-12-10 02:07:22,636 INFO    wandb-upload_1:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\xkn3xo07-model.zip
+2023-12-10 02:07:23,180 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:24,378 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\output.log
+2023-12-10 02:07:28,182 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:32,416 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:07:32,417 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:07:33,697 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:38,699 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:43,702 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:46,802 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:07:47,419 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:07:47,419 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:07:49,644 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:54,646 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:07:59,657 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:02,412 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:08:02,412 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:08:04,692 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:09,695 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:14,698 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:16,803 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:08:17,416 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:08:17,417 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:08:19,327 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,327 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,328 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,328 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,329 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,329 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,329 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,330 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,330 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,330 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,331 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,331 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,331 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-10 02:08:19,351 DEBUG   SenderThread:9056 [sender.py:send():336] send: files
+2023-12-10 02:08:19,351 INFO    SenderThread:9056 [sender.py:_save_file():1332] saving file model.zip with policy live
+2023-12-10 02:08:19,598 INFO    Thread-34 :9056 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\wandb\run-20231210_010533-mvepdgy8\files\model.zip
+2023-12-10 02:08:20,188 INFO    wandb-upload_0:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\cgvea819-model.zip
+2023-12-10 02:08:20,353 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:25,355 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
