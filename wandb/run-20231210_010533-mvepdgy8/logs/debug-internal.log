@@ -2704,3 +2704,14 @@ _info {
 2023-12-10 02:08:20,188 INFO    wandb-upload_0:9056 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmp7xaoybidwandb\cgvea819-model.zip
 2023-12-10 02:08:20,353 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
 2023-12-10 02:08:25,355 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:30,357 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:32,425 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:08:32,426 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:08:35,741 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:40,751 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:45,772 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:46,803 DEBUG   SenderThread:9056 [sender.py:send():336] send: stats
+2023-12-10 02:08:47,430 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-10 02:08:47,430 DEBUG   SenderThread:9056 [sender.py:send_request():363] send_request: stop_status
+2023-12-10 02:08:51,707 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
+2023-12-10 02:08:56,708 DEBUG   HandlerThread:9056 [handler.py:handle_request():144] handle_request: status_report
