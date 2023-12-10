@@ -341,3 +341,25 @@ Logging to 1gdlppo/PPO_6
 |    policy_gradient_loss | 0.0171     |
 |    std                  | 27.9       |
 |    value_loss           | 1.1e+03    |
+----------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 4e+03       |
+|    ep_rew_mean          | -2.71e+04   |
+| time/                   |             |
+|    fps                  | 184         |
+|    iterations           | 17          |
+|    time_elapsed         | 3695        |
+|    total_timesteps      | 680000      |
+| train/                  |             |
+|    approx_kl            | 0.014063551 |
+|    clip_fraction        | 0.0658      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.83       |
+|    explained_variance   | 0.99        |
+|    learning_rate        | 0.000488    |
+|    loss                 | 470         |
+|    n_updates            | 160         |
+|    policy_gradient_loss | 0.00743     |
+|    std                  | 31.5        |
+|    value_loss           | 1.7e+03     |

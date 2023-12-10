@@ -29,3 +29,117 @@ config: {}
 2023-12-05 19:31:07,878 INFO    MainThread:17300 [wandb_init.py:init():831] run started, returning control to user process
 2023-12-05 19:31:07,878 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
 2023-12-05 19:31:07,878 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-05 19:31:11,729 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-05 19:31:12,741 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-05 19:31:12,741 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-05 19:31:31,802 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-05 19:31:32,090 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-05 19:31:32,090 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-05 19:31:58,080 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-05 19:31:58,155 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-05 19:31:58,155 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-05 19:32:03,650 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-05 19:32:03,652 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-05 19:32:03,652 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-05 19:33:11,277 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-05 19:33:11,298 INFO    MainThread:17300 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 1gdlcomplex/SAC_1, True
+2023-12-05 19:33:11,325 INFO    MainThread:17300 [wandb_watch.py:watch():51] Watching
+2023-12-05 19:33:11,327 INFO    MainThread:17300 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [8, 8], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 1250000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1701801191280514800, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000001ED5A4B4A60>', 'tensorboard_log': '1gdlcomplex/', '_last_obs': '[[10. 10. 10. 10.]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001ED1CC815B0>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 10. -inf -10. -45.], [23. inf 10. 45.], (4,), float32)', 'action_space': 'Box(-100.0, 50.0, (1,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x000001ED1C76CDC0>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -1.0, 'log_ent_coef': 'tensor([0.], requires_grad=True)', 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.001\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000001ED5A4B4A60>', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=4, out_features=8, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=8, out_features=1, bias=True)\n    (log_std): Linear(in_features=8, out_features=1, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=5, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=5, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=5, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=5, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=4, out_features=8, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=8, out_features=8, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=8, out_features=1, bias=True)\n  (log_std): Linear(in_features=8, out_features=1, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=5, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=5, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=5, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=5, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001ED1CD90FA0>'}
+2023-12-05 19:35:57,233 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:38:58,713 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:42:06,685 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:45:04,529 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:48:11,274 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:51:24,111 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:54:38,434 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 19:58:10,776 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:01:42,533 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:05:14,242 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:08:43,946 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:12:10,937 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:15:35,442 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:19:01,588 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:22:26,162 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:26:00,378 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:29:33,952 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:33:14,855 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:36:53,913 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:40:37,017 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:44:15,611 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:47:49,483 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:51:19,818 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:54:52,149 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 20:58:26,526 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:02:11,031 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:05:46,937 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:09:23,302 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:12:56,569 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:16:28,260 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:19:56,556 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:23:29,409 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:26:57,222 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:30:27,748 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:33:56,886 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:37:32,392 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:41:14,007 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:44:57,295 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:48:33,377 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:52:07,791 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:55:48,011 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 21:59:30,974 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:03:09,169 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:06:43,296 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:10:13,838 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:13:47,908 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:17:20,777 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:20:55,699 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:24:27,268 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:28:02,566 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:31:28,050 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:34:54,913 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:38:38,023 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:42:23,906 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:46:06,624 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:49:51,521 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:53:30,964 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 22:57:10,635 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:00:55,164 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:04:39,550 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:08:22,088 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:12:05,073 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:15:48,009 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:19:32,589 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:23:16,287 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:26:54,512 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:30:28,104 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:34:02,510 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:37:34,674 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:41:11,534 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:45:00,073 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:48:51,680 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:52:39,597 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-05 23:56:20,566 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:00:07,521 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:03:57,747 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:07:45,365 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:11:25,436 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:15:03,497 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:18:44,009 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:22:20,428 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:26:00,255 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:29:36,598 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:33:15,167 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:36:53,037 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:40:44,167 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:44:33,305 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:48:25,076 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:52:13,934 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:55:53,674 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 00:59:37,926 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 01:03:28,317 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 01:07:16,378 INFO    MainThread:17300 [sb3.py:save_model():153] Saving model checkpoint to models/o2bbuwlo\model.zip
+2023-12-06 01:09:03,712 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-06 01:09:03,712 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
+2023-12-06 01:09:11,990 INFO    MainThread:17300 [wandb_init.py:_resume_backend():422] resuming backend
+2023-12-06 01:11:16,149 INFO    MainThread:17300 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-06 01:11:16,149 INFO    MainThread:17300 [wandb_init.py:_pause_backend():417] pausing backend
