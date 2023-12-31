@@ -1,0 +1,62 @@
+2023-12-30 20:51:47,432 INFO    StreamThr :18660 [internal.py:wandb_internal():87] W&B internal server running at pid: 18660, started at: 2023-12-30 20:51:47.431035
+2023-12-30 20:51:47,437 DEBUG   HandlerThread:18660 [handler.py:handle_request():144] handle_request: status
+2023-12-30 20:51:47,439 INFO    WriterThread:18660 [datastore.py:open_for_write():85] open: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\run-chnhlzly.wandb
+2023-12-30 20:51:47,439 DEBUG   SenderThread:18660 [sender.py:send():336] send: header
+2023-12-30 20:51:47,439 DEBUG   SenderThread:18660 [sender.py:send():336] send: run
+2023-12-30 20:51:47,937 INFO    SenderThread:18660 [dir_watcher.py:__init__():219] watching files in: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files
+2023-12-30 20:51:47,937 INFO    SenderThread:18660 [sender.py:_start_run_threads():1078] run started: chnhlzly with start time 1703965906.451953
+2023-12-30 20:51:47,937 DEBUG   SenderThread:18660 [sender.py:send_request():363] send_request: summary_record
+2023-12-30 20:51:47,938 INFO    SenderThread:18660 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-12-30 20:51:47,941 DEBUG   HandlerThread:18660 [handler.py:handle_request():144] handle_request: check_version
+2023-12-30 20:51:47,941 DEBUG   SenderThread:18660 [sender.py:send_request():363] send_request: check_version
+2023-12-30 20:51:48,036 DEBUG   HandlerThread:18660 [handler.py:handle_request():144] handle_request: run_start
+2023-12-30 20:51:48,049 DEBUG   HandlerThread:18660 [system_info.py:__init__():31] System info init
+2023-12-30 20:51:48,049 DEBUG   HandlerThread:18660 [system_info.py:__init__():46] System info init done
+2023-12-30 20:51:48,050 INFO    HandlerThread:18660 [system_monitor.py:start():183] Starting system monitor
+2023-12-30 20:51:48,050 INFO    SystemMonitor:18660 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-12-30 20:51:48,050 INFO    HandlerThread:18660 [system_monitor.py:probe():204] Collecting system info
+2023-12-30 20:51:48,056 INFO    SystemMonitor:18660 [interfaces.py:start():187] Started cpu monitoring
+2023-12-30 20:51:48,057 INFO    SystemMonitor:18660 [interfaces.py:start():187] Started disk monitoring
+2023-12-30 20:51:48,063 INFO    SystemMonitor:18660 [interfaces.py:start():187] Started gpu monitoring
+2023-12-30 20:51:48,063 DEBUG   HandlerThread:18660 [system_info.py:probe():195] Probing system
+2023-12-30 20:51:48,069 INFO    SystemMonitor:18660 [interfaces.py:start():187] Started memory monitoring
+2023-12-30 20:51:48,083 INFO    SystemMonitor:18660 [interfaces.py:start():187] Started network monitoring
+2023-12-30 20:51:48,087 DEBUG   HandlerThread:18660 [system_info.py:_probe_git():180] Probing git
+2023-12-30 20:51:48,443 DEBUG   HandlerThread:18660 [system_info.py:_probe_git():188] Probing git done
+2023-12-30 20:51:48,444 DEBUG   HandlerThread:18660 [system_info.py:probe():240] Probing system done
+2023-12-30 20:51:48,444 DEBUG   HandlerThread:18660 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-12-30T19:51:48.064073', 'startedAt': '2023-12-30T19:51:34.224728', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:HugoAlbertBonet/rl_levitation_control.git', 'commit': 'bac781a1fba4adef7c759dbc7f1aa50f77453755'}, 'email': 'hugo.albert.16@gmail.com', 'root': 'C:/Users/hugoa/H9/RL/GitHub Vrain/rl_levitation_control/rl_levitation_control', 'host': 'DESKTOP-7D88GMF', 'username': 'hugoa', 'executable': 'C:\\Users\\hugoa\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 952.5908164978027, 'used': 675.0188369750977}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.856746673583984}}
+2023-12-30 20:51:48,444 INFO    HandlerThread:18660 [system_monitor.py:probe():214] Finished collecting system info
+2023-12-30 20:51:48,444 INFO    HandlerThread:18660 [system_monitor.py:probe():217] Publishing system info
+2023-12-30 20:51:48,444 DEBUG   HandlerThread:18660 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-12-30 20:51:48,445 DEBUG   HandlerThread:18660 [system_info.py:_save_pip():67] Saving pip packages done
+2023-12-30 20:51:48,446 INFO    HandlerThread:18660 [system_monitor.py:probe():219] Finished publishing system info
+2023-12-30 20:51:48,446 DEBUG   SenderThread:18660 [sender.py:send():336] send: files
+2023-12-30 20:51:48,446 INFO    SenderThread:18660 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-12-30 20:51:48,457 DEBUG   HandlerThread:18660 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-30 20:51:48,457 DEBUG   SenderThread:18660 [sender.py:send_request():363] send_request: stop_status
+2023-12-30 20:51:48,553 INFO    HandlerThread:18660 [handler.py:handle_tbrecord():747] handling tbrecord: tbrecord {
+  log_dir: "2gdl/SAC_6"
+  save: true
+}
+control {
+  relay_id: "817b8858832d4dabbba6d373ec26769f"
+}
+_info {
+  stream_id: "chnhlzly"
+}
+
+2023-12-30 20:51:48,553 DEBUG   HandlerThread:18660 [config_util.py:dict_from_config_file():103] no default config file found in config-defaults.yaml
+2023-12-30 20:51:48,702 DEBUG   SenderThread:18660 [sender.py:send():336] send: telemetry
+2023-12-30 20:51:48,705 DEBUG   SenderThread:18660 [sender.py:send():336] send: telemetry
+2023-12-30 20:51:48,706 DEBUG   SenderThread:18660 [sender.py:send():336] send: tbrecord
+2023-12-30 20:51:48,706 DEBUG   SenderThread:18660 [sender.py:send():336] send: files
+2023-12-30 20:51:48,706 INFO    SenderThread:18660 [sender.py:_save_file():1332] saving file events.out.tfevents.1703965908.DESKTOP-7D88GMF.15704.4 with policy live
+2023-12-30 20:51:48,707 DEBUG   SenderThread:18660 [sender.py:send():336] send: telemetry
+2023-12-30 20:51:48,708 DEBUG   SenderThread:18660 [sender.py:send():336] send: config
+2023-12-30 20:51:48,941 INFO    Thread-36 :18660 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files\wandb-metadata.json
+2023-12-30 20:51:48,942 INFO    Thread-36 :18660 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files\output.log
+2023-12-30 20:51:48,942 INFO    Thread-36 :18660 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files\events.out.tfevents.1703965908.DESKTOP-7D88GMF.15704.4
+2023-12-30 20:51:48,942 INFO    Thread-36 :18660 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files\wandb-summary.json
+2023-12-30 20:51:48,943 INFO    Thread-36 :18660 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231230_205134-chnhlzly\files\requirements.txt
+2023-12-30 20:51:48,986 INFO    wandb-upload_0:18660 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpe200pconwandb\j4g2fx4n-wandb-metadata.json
+2023-12-30 20:51:49,269 INFO    wandb-upload_1:18660 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpe200pconwandb\x5mj0n96-events.out.tfevents.1703965908.DESKTOP-7D88GMF.15704.4
