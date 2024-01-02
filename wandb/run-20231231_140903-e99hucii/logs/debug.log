@@ -1,0 +1,17 @@
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Configure stats pid to 15704
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-31 14:09:03,625 INFO    MainThread:15704 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-31 14:09:03,626 INFO    MainThread:15704 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231231_140903-e99hucii\logs\debug.log
+2023-12-31 14:09:03,626 INFO    MainThread:15704 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20231231_140903-e99hucii\logs\debug-internal.log
+2023-12-31 14:09:03,626 INFO    MainThread:15704 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000260252AD8B0>
+2023-12-31 14:09:03,626 INFO    MainThread:15704 [wandb_init.py:init():546] calling init triggers
+2023-12-31 14:09:03,627 INFO    MainThread:15704 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-12-31 14:09:03,627 INFO    MainThread:15704 [wandb_init.py:init():568] re-initializing run, found existing run on stack: chnhlzly
+2023-12-31 14:09:03,628 INFO    MainThread:15704 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/chnhlzly
+2023-12-31 14:09:03,628 INFO    MainThread:15704 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-12-31 14:09:03,628 INFO    MainThread:15704 [wandb_run.py:_restore():2066] restore
+2023-12-31 14:09:03,629 INFO    MainThread:15704 [wandb_run.py:_restore():2072] restore done
