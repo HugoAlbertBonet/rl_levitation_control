@@ -1,0 +1,130 @@
+2024-01-13 19:52:05,035 INFO    StreamThr :14044 [internal.py:wandb_internal():87] W&B internal server running at pid: 14044, started at: 2024-01-13 19:52:05.034543
+2024-01-13 19:52:05,037 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: status
+2024-01-13 19:52:05,038 INFO    WriterThread:14044 [datastore.py:open_for_write():85] open: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\run-vtit5o2t.wandb
+2024-01-13 19:52:05,039 DEBUG   SenderThread:14044 [sender.py:send():336] send: header
+2024-01-13 19:52:05,040 DEBUG   SenderThread:14044 [sender.py:send():336] send: run
+2024-01-13 19:52:05,451 INFO    SenderThread:14044 [dir_watcher.py:__init__():219] watching files in: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files
+2024-01-13 19:52:05,451 INFO    SenderThread:14044 [sender.py:_start_run_threads():1078] run started: vtit5o2t with start time 1705171924.053455
+2024-01-13 19:52:05,451 DEBUG   SenderThread:14044 [sender.py:send_request():363] send_request: summary_record
+2024-01-13 19:52:05,452 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: check_version
+2024-01-13 19:52:05,452 INFO    SenderThread:14044 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-01-13 19:52:05,452 DEBUG   SenderThread:14044 [sender.py:send_request():363] send_request: check_version
+2024-01-13 19:52:05,529 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: run_start
+2024-01-13 19:52:05,539 DEBUG   HandlerThread:14044 [system_info.py:__init__():31] System info init
+2024-01-13 19:52:05,539 DEBUG   HandlerThread:14044 [system_info.py:__init__():46] System info init done
+2024-01-13 19:52:05,539 INFO    HandlerThread:14044 [system_monitor.py:start():183] Starting system monitor
+2024-01-13 19:52:05,539 INFO    SystemMonitor:14044 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-13 19:52:05,540 INFO    HandlerThread:14044 [system_monitor.py:probe():204] Collecting system info
+2024-01-13 19:52:05,552 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started cpu monitoring
+2024-01-13 19:52:05,553 DEBUG   HandlerThread:14044 [system_info.py:probe():195] Probing system
+2024-01-13 19:52:05,553 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started disk monitoring
+2024-01-13 19:52:05,554 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started gpu monitoring
+2024-01-13 19:52:05,566 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started memory monitoring
+2024-01-13 19:52:05,576 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started network monitoring
+2024-01-13 19:52:05,578 DEBUG   HandlerThread:14044 [system_info.py:_probe_git():180] Probing git
+2024-01-13 19:52:05,901 DEBUG   HandlerThread:14044 [system_info.py:_probe_git():188] Probing git done
+2024-01-13 19:52:05,901 DEBUG   HandlerThread:14044 [system_info.py:probe():240] Probing system done
+2024-01-13 19:52:05,901 DEBUG   HandlerThread:14044 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-01-13T18:52:05.553509', 'startedAt': '2024-01-13T18:51:50.767971', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:HugoAlbertBonet/rl_levitation_control.git', 'commit': '11525b6e6c68d90a5269ef4b5793b77c52f9f754'}, 'email': 'hugo.albert.16@gmail.com', 'root': 'C:/Users/hugoa/H9/RL/GitHub Vrain/rl_levitation_control/rl_levitation_control', 'host': 'DESKTOP-7D88GMF', 'username': 'hugoa', 'executable': 'C:\\Users\\hugoa\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 952.5908164978027, 'used': 681.1118507385254}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.856746673583984}}
+2024-01-13 19:52:05,901 INFO    HandlerThread:14044 [system_monitor.py:probe():214] Finished collecting system info
+2024-01-13 19:52:05,901 INFO    HandlerThread:14044 [system_monitor.py:probe():217] Publishing system info
+2024-01-13 19:52:05,901 DEBUG   HandlerThread:14044 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-13 19:52:05,902 DEBUG   HandlerThread:14044 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-13 19:52:05,903 INFO    HandlerThread:14044 [system_monitor.py:probe():219] Finished publishing system info
+2024-01-13 19:52:05,904 DEBUG   SenderThread:14044 [sender.py:send():336] send: files
+2024-01-13 19:52:05,904 INFO    SenderThread:14044 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2024-01-13 19:52:05,914 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-13 19:52:05,915 DEBUG   SenderThread:14044 [sender.py:send_request():363] send_request: stop_status
+2024-01-13 19:52:05,916 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: pause
+2024-01-13 19:52:05,917 INFO    HandlerThread:14044 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-01-13 19:52:05,917 INFO    HandlerThread:14044 [system_monitor.py:finish():193] Stopping system monitor
+2024-01-13 19:52:05,917 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-01-13 19:52:05,930 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-01-13 19:52:05,930 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined cpu monitor
+2024-01-13 19:52:05,930 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-01-13 19:52:05,931 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined disk monitor
+2024-01-13 19:52:06,011 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined gpu monitor
+2024-01-13 19:52:06,011 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined memory monitor
+2024-01-13 19:52:06,011 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined network monitor
+2024-01-13 19:52:06,012 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: resume
+2024-01-13 19:52:06,012 INFO    HandlerThread:14044 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-01-13 19:52:06,012 INFO    HandlerThread:14044 [system_monitor.py:start():183] Starting system monitor
+2024-01-13 19:52:06,012 INFO    SystemMonitor:14044 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-13 19:52:06,013 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: pause
+2024-01-13 19:52:06,013 INFO    HandlerThread:14044 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-01-13 19:52:06,013 INFO    HandlerThread:14044 [system_monitor.py:finish():193] Stopping system monitor
+2024-01-13 19:52:06,013 WARNING HandlerThread:14044 [interfaces.py:finish():204] Failed to finish cpu monitoring: cannot join thread before it is started
+2024-01-13 19:52:06,014 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started cpu monitoring
+2024-01-13 19:52:06,014 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-01-13 19:52:06,014 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-01-13 19:52:06,014 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-01-13 19:52:06,015 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: resume
+2024-01-13 19:52:06,015 INFO    HandlerThread:14044 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-01-13 19:52:06,015 INFO    HandlerThread:14044 [system_monitor.py:start():183] Starting system monitor
+2024-01-13 19:52:06,015 INFO    SystemMonitor:14044 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-13 19:52:06,026 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started cpu monitoring
+2024-01-13 19:52:06,029 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started disk monitoring
+2024-01-13 19:52:06,032 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started gpu monitoring
+2024-01-13 19:52:06,052 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started memory monitoring
+2024-01-13 19:52:06,054 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: pause
+2024-01-13 19:52:06,054 INFO    HandlerThread:14044 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-01-13 19:52:06,055 INFO    HandlerThread:14044 [system_monitor.py:finish():193] Stopping system monitor
+2024-01-13 19:52:06,056 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined cpu monitor
+2024-01-13 19:52:06,056 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined disk monitor
+2024-01-13 19:52:06,056 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started network monitoring
+2024-01-13 19:52:06,056 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-01-13 19:52:06,057 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-01-13 19:52:06,057 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-01-13 19:52:06,146 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined gpu monitor
+2024-01-13 19:52:06,147 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined memory monitor
+2024-01-13 19:52:06,147 INFO    HandlerThread:14044 [interfaces.py:finish():199] Joined network monitor
+2024-01-13 19:52:06,147 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: resume
+2024-01-13 19:52:06,147 INFO    HandlerThread:14044 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-01-13 19:52:06,147 INFO    HandlerThread:14044 [system_monitor.py:start():183] Starting system monitor
+2024-01-13 19:52:06,147 INFO    SystemMonitor:14044 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-13 19:52:06,148 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: pause
+2024-01-13 19:52:06,148 INFO    HandlerThread:14044 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-01-13 19:52:06,148 INFO    HandlerThread:14044 [system_monitor.py:finish():193] Stopping system monitor
+2024-01-13 19:52:06,148 WARNING HandlerThread:14044 [interfaces.py:finish():204] Failed to finish cpu monitoring: cannot join thread before it is started
+2024-01-13 19:52:06,148 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started cpu monitoring
+2024-01-13 19:52:06,148 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-01-13 19:52:06,148 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-01-13 19:52:06,148 DEBUG   SystemMonitor:14044 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-01-13 19:52:06,149 DEBUG   HandlerThread:14044 [handler.py:handle_request():144] handle_request: resume
+2024-01-13 19:52:06,149 INFO    HandlerThread:14044 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-01-13 19:52:06,149 INFO    HandlerThread:14044 [system_monitor.py:start():183] Starting system monitor
+2024-01-13 19:52:06,149 INFO    SystemMonitor:14044 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-13 19:52:06,149 INFO    HandlerThread:14044 [handler.py:handle_tbrecord():747] handling tbrecord: tbrecord {
+  log_dir: "2gdl/SAC_30"
+  save: true
+}
+control {
+  relay_id: "24c996aacfeb44b4bc9f0e8cd0a67c25"
+}
+_info {
+  stream_id: "vtit5o2t"
+}
+
+2024-01-13 19:52:06,169 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started cpu monitoring
+2024-01-13 19:52:06,170 DEBUG   HandlerThread:14044 [config_util.py:dict_from_config_file():103] no default config file found in config-defaults.yaml
+2024-01-13 19:52:06,171 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started disk monitoring
+2024-01-13 19:52:06,175 DEBUG   SenderThread:14044 [sender.py:send():336] send: telemetry
+2024-01-13 19:52:06,175 DEBUG   SenderThread:14044 [sender.py:send():336] send: stats
+2024-01-13 19:52:06,176 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started gpu monitoring
+2024-01-13 19:52:06,185 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started memory monitoring
+2024-01-13 19:52:06,203 INFO    SystemMonitor:14044 [interfaces.py:start():187] Started network monitoring
+2024-01-13 19:52:06,204 DEBUG   SenderThread:14044 [sender.py:send():336] send: stats
+2024-01-13 19:52:06,204 DEBUG   SenderThread:14044 [sender.py:send():336] send: telemetry
+2024-01-13 19:52:06,205 DEBUG   SenderThread:14044 [sender.py:send():336] send: stats
+2024-01-13 19:52:06,207 DEBUG   SenderThread:14044 [sender.py:send():336] send: tbrecord
+2024-01-13 19:52:06,207 DEBUG   SenderThread:14044 [sender.py:send():336] send: telemetry
+2024-01-13 19:52:06,207 DEBUG   SenderThread:14044 [sender.py:send():336] send: config
+2024-01-13 19:52:06,208 DEBUG   SenderThread:14044 [sender.py:send():336] send: stats
+2024-01-13 19:52:06,208 DEBUG   SenderThread:14044 [sender.py:send():336] send: files
+2024-01-13 19:52:06,208 INFO    SenderThread:14044 [sender.py:_save_file():1332] saving file events.out.tfevents.1705171926.DESKTOP-7D88GMF.1204.3 with policy live
+2024-01-13 19:52:06,453 INFO    Thread-50 :14044 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files\output.log
+2024-01-13 19:52:06,453 INFO    Thread-50 :14044 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files\wandb-metadata.json
+2024-01-13 19:52:06,453 INFO    Thread-50 :14044 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files\wandb-summary.json
+2024-01-13 19:52:06,454 INFO    Thread-50 :14044 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files\events.out.tfevents.1705171926.DESKTOP-7D88GMF.1204.3
+2024-01-13 19:52:06,454 INFO    Thread-50 :14044 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240113_195150-vtit5o2t\files\requirements.txt
+2024-01-13 19:52:06,530 INFO    wandb-upload_0:14044 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpyaxauk33wandb\d1nhz71k-wandb-metadata.json
+2024-01-13 19:52:06,697 INFO    wandb-upload_1:14044 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpyaxauk33wandb\818n5gb5-events.out.tfevents.1705171926.DESKTOP-7D88GMF.1204.3
