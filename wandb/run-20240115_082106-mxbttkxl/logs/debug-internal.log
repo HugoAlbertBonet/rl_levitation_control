@@ -1,0 +1,41 @@
+2024-01-15 08:21:17,972 INFO    StreamThr :21756 [internal.py:wandb_internal():87] W&B internal server running at pid: 21756, started at: 2024-01-15 08:21:17.971798
+2024-01-15 08:21:17,978 DEBUG   HandlerThread:21756 [handler.py:handle_request():144] handle_request: status
+2024-01-15 08:21:17,979 INFO    WriterThread:21756 [datastore.py:open_for_write():85] open: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240115_082106-mxbttkxl\run-mxbttkxl.wandb
+2024-01-15 08:21:17,980 DEBUG   SenderThread:21756 [sender.py:send():336] send: header
+2024-01-15 08:21:17,980 DEBUG   SenderThread:21756 [sender.py:send():336] send: run
+2024-01-15 08:21:18,431 INFO    SenderThread:21756 [dir_watcher.py:__init__():219] watching files in: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240115_082106-mxbttkxl\files
+2024-01-15 08:21:18,431 INFO    SenderThread:21756 [sender.py:_start_run_threads():1078] run started: mxbttkxl with start time 1705303276.991092
+2024-01-15 08:21:18,431 DEBUG   SenderThread:21756 [sender.py:send_request():363] send_request: summary_record
+2024-01-15 08:21:18,432 INFO    SenderThread:21756 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-01-15 08:21:18,435 DEBUG   HandlerThread:21756 [handler.py:handle_request():144] handle_request: check_version
+2024-01-15 08:21:18,435 DEBUG   SenderThread:21756 [sender.py:send_request():363] send_request: check_version
+2024-01-15 08:21:18,512 DEBUG   HandlerThread:21756 [handler.py:handle_request():144] handle_request: run_start
+2024-01-15 08:21:18,524 DEBUG   HandlerThread:21756 [system_info.py:__init__():31] System info init
+2024-01-15 08:21:18,524 DEBUG   HandlerThread:21756 [system_info.py:__init__():46] System info init done
+2024-01-15 08:21:18,525 INFO    HandlerThread:21756 [system_monitor.py:start():183] Starting system monitor
+2024-01-15 08:21:18,525 INFO    SystemMonitor:21756 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-01-15 08:21:18,525 INFO    HandlerThread:21756 [system_monitor.py:probe():204] Collecting system info
+2024-01-15 08:21:18,533 INFO    SystemMonitor:21756 [interfaces.py:start():187] Started cpu monitoring
+2024-01-15 08:21:18,534 INFO    SystemMonitor:21756 [interfaces.py:start():187] Started disk monitoring
+2024-01-15 08:21:18,542 DEBUG   HandlerThread:21756 [system_info.py:probe():195] Probing system
+2024-01-15 08:21:18,542 INFO    SystemMonitor:21756 [interfaces.py:start():187] Started gpu monitoring
+2024-01-15 08:21:18,551 INFO    SystemMonitor:21756 [interfaces.py:start():187] Started memory monitoring
+2024-01-15 08:21:18,567 INFO    SystemMonitor:21756 [interfaces.py:start():187] Started network monitoring
+2024-01-15 08:21:18,577 DEBUG   HandlerThread:21756 [system_info.py:_probe_git():180] Probing git
+2024-01-15 08:21:18,917 DEBUG   HandlerThread:21756 [system_info.py:_probe_git():188] Probing git done
+2024-01-15 08:21:18,918 DEBUG   HandlerThread:21756 [system_info.py:probe():240] Probing system done
+2024-01-15 08:21:18,918 DEBUG   HandlerThread:21756 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-01-15T07:21:18.543814', 'startedAt': '2024-01-15T07:21:06.432263', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:HugoAlbertBonet/rl_levitation_control.git', 'commit': 'edfef44752e94f9f36f452459590cb01b986a96f'}, 'email': 'hugo.albert.16@gmail.com', 'root': 'C:/Users/hugoa/H9/RL/GitHub Vrain/rl_levitation_control/rl_levitation_control', 'host': 'DESKTOP-7D88GMF', 'username': 'hugoa', 'executable': 'C:\\Users\\hugoa\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 952.5908164978027, 'used': 683.9672203063965}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.856746673583984}}
+2024-01-15 08:21:18,918 INFO    HandlerThread:21756 [system_monitor.py:probe():214] Finished collecting system info
+2024-01-15 08:21:18,918 INFO    HandlerThread:21756 [system_monitor.py:probe():217] Publishing system info
+2024-01-15 08:21:18,918 DEBUG   HandlerThread:21756 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-15 08:21:18,919 DEBUG   HandlerThread:21756 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-15 08:21:18,919 INFO    HandlerThread:21756 [system_monitor.py:probe():219] Finished publishing system info
+2024-01-15 08:21:18,920 DEBUG   SenderThread:21756 [sender.py:send():336] send: files
+2024-01-15 08:21:18,920 INFO    SenderThread:21756 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2024-01-15 08:21:18,931 DEBUG   HandlerThread:21756 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-15 08:21:18,931 DEBUG   SenderThread:21756 [sender.py:send_request():363] send_request: stop_status
+2024-01-15 08:21:19,154 DEBUG   SenderThread:21756 [sender.py:send():336] send: telemetry
+2024-01-15 08:21:19,435 INFO    Thread-33 :21756 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240115_082106-mxbttkxl\files\wandb-summary.json
+2024-01-15 08:21:19,435 INFO    Thread-33 :21756 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240115_082106-mxbttkxl\files\requirements.txt
+2024-01-15 08:21:19,435 INFO    Thread-33 :21756 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240115_082106-mxbttkxl\files\wandb-metadata.json
+2024-01-15 08:21:19,478 INFO    wandb-upload_0:21756 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpzz93l4hvwandb\f96g34vg-wandb-metadata.json
