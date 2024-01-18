@@ -45,3 +45,79 @@ config: {}
 2024-01-15 08:46:23,926 INFO    MainThread:460 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8nocrash.2\model.zip
 2024-01-15 08:50:24,500 INFO    MainThread:460 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8nocrash.2\model.zip
 2024-01-15 08:54:26,761 INFO    MainThread:460 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8nocrash.2\model.zip
+2024-01-18 15:51:13,188 INFO    MainThread:460 [wandb_setup.py:_flush():76] Configure stats pid to 460
+2024-01-18 15:51:13,190 INFO    MainThread:460 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240118_155113-9x86ugw6\logs\debug.log
+2024-01-18 15:51:13,191 INFO    MainThread:460 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240118_155113-9x86ugw6\logs\debug-internal.log
+2024-01-18 15:51:13,192 INFO    MainThread:460 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000011C008EA5B0>
+2024-01-18 15:51:13,192 INFO    MainThread:460 [wandb_init.py:init():546] calling init triggers
+2024-01-18 15:51:13,193 INFO    MainThread:460 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-18 15:51:13,193 INFO    MainThread:460 [wandb_init.py:init():568] re-initializing run, found existing run on stack: mxbttkxl
+2024-01-18 15:51:13,195 INFO    MainThread:460 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/mxbttkxl
+2024-01-18 15:51:13,196 INFO    MainThread:460 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-01-18 15:51:13,196 INFO    MainThread:460 [wandb_run.py:_restore():2066] restore
+2024-01-18 15:51:13,198 INFO    MainThread:460 [wandb_run.py:_restore():2072] restore done
+2024-01-18 15:53:45,262 WARNING MsgRouterThr:460 [router.py:message_loop():77] message_loop has been closed
+2024-01-18 15:53:49,276 INFO    MainThread:460 [wandb_run.py:_restore():2066] restore
+2024-01-18 15:53:49,276 INFO    MainThread:460 [wandb_run.py:_restore():2072] restore done
+2024-01-18 15:53:49,357 ERROR   MainThread:460 [wandb_init.py:init():1171] error
+Traceback (most recent call last):
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 2092, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 2325, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\mailbox.py", line 298, in wait
+    on_probe(probe_handle)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 2290, in _on_probe_exit
+    result = handle.wait(timeout=0)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\mailbox.py", line 281, in wait
+    raise MailboxError("transport failed")
+wandb.sdk.lib.mailbox.MailboxError: transport failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_init.py", line 1144, in init
+    run = wi.init()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_init.py", line 581, in init
+    self._wl._global_run_stack[-1].finish()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 370, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 1845, in finish
+    return self._finish(exit_code, quiet)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 1860, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_run.py", line 2103, in _atexit_cleanup
+    self._backend.cleanup()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\backend\backend.py", line 259, in cleanup
+    self.interface.join()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface_shared.py", line 638, in join
+    super().join()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface.py", line 741, in join
+    _ = self._communicate_shutdown()
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface_shared.py", line 551, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface_shared.py", line 285, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\interface\router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\hugoa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto

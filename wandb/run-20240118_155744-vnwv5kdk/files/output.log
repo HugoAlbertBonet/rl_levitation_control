@@ -1,0 +1,124 @@
+Using cpu device
+Wrapping the env in a DummyVecEnv.
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Logging to 2gdl/SAC_33
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -2.68e+03 |
+| time/              |           |
+|    episodes        | 4         |
+|    fps             | 37        |
+|    time_elapsed    | 536       |
+|    total_timesteps | 20000     |
+| train/             |           |
+|    actor_loss      | 41.9      |
+|    critic_loss     | 1.42      |
+|    ent_coef        | 0.0152    |
+|    ent_coef_loss   | 1.3       |
+|    learning_rate   | 9.98e-06  |
+|    n_updates       | 799798    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -2.27e+03 |
+| time/              |           |
+|    episodes        | 8         |
+|    fps             | 37        |
+|    time_elapsed    | 1060      |
+|    total_timesteps | 40000     |
+| train/             |           |
+|    actor_loss      | 34.3      |
+|    critic_loss     | 0.306     |
+|    ent_coef        | 0.0183    |
+|    ent_coef_loss   | 3.42      |
+|    learning_rate   | 9.95e-06  |
+|    n_updates       | 819798    |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5e+03    |
+|    ep_rew_mean     | -2.1e+03 |
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 38       |
+|    time_elapsed    | 1575     |
+|    total_timesteps | 60000    |
+| train/             |          |
+|    actor_loss      | 39.8     |
+|    critic_loss     | 1.48     |
+|    ent_coef        | 0.0223   |
+|    ent_coef_loss   | 3.71     |
+|    learning_rate   | 9.93e-06 |
+|    n_updates       | 839798   |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -2.15e+03 |
+| time/              |           |
+|    episodes        | 16        |
+|    fps             | 38        |
+|    time_elapsed    | 2076      |
+|    total_timesteps | 80000     |
+| train/             |           |
+|    actor_loss      | 40.8      |
+|    critic_loss     | 2.88      |
+|    ent_coef        | 0.0273    |
+|    ent_coef_loss   | 4.07      |
+|    learning_rate   | 9.9e-06   |
+|    n_updates       | 859798    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -2.37e+03 |
+| time/              |           |
+|    episodes        | 20        |
+|    fps             | 38        |
+|    time_elapsed    | 2579      |
+|    total_timesteps | 100000    |
+| train/             |           |
+|    actor_loss      | 55.5      |
+|    critic_loss     | 6.05      |
+|    ent_coef        | 0.033     |
+|    ent_coef_loss   | 2.85      |
+|    learning_rate   | 9.88e-06  |
+|    n_updates       | 879798    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -7.81e+03 |
+| time/              |           |
+|    episodes        | 24        |
+|    fps             | 38        |
+|    time_elapsed    | 3095      |
+|    total_timesteps | 120000    |
+| train/             |           |
+|    actor_loss      | 136       |
+|    critic_loss     | 5.57      |
+|    ent_coef        | 0.0397    |
+|    ent_coef_loss   | 2.82      |
+|    learning_rate   | 9.85e-06  |
+|    n_updates       | 899798    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5e+03     |
+|    ep_rew_mean     | -1.36e+04 |
+| time/              |           |
+|    episodes        | 28        |
+|    fps             | 38        |
+|    time_elapsed    | 3594      |
+|    total_timesteps | 140000    |
+| train/             |           |
+|    actor_loss      | 319       |
+|    critic_loss     | 5.03      |
+|    ent_coef        | 0.0482    |
+|    ent_coef_loss   | 2.71      |
+|    learning_rate   | 9.83e-06  |
+|    n_updates       | 919798    |
+----------------------------------
