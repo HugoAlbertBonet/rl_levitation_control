@@ -1,0 +1,250 @@
+wandb_version: 1
+
+_current_progress_remaining:
+  desc: null
+  value: 0.9220001
+_custom_logger:
+  desc: null
+  value: 'False'
+_episode_num:
+  desc: null
+  value: 0
+_episode_storage:
+  desc: null
+  value: None
+_last_episode_starts:
+  desc: null
+  value: '[ True]'
+_last_obs:
+  desc: null
+  value: '[[0.29713538 0.29713538 0.         0.         0.         0.        ]]'
+_last_original_obs:
+  desc: null
+  value: "[[-3.0392680e-01 -1.5832670e-01  5.7059515e-04 -5.9812423e-04\n  -4.0125475e+00\
+    \ -1.9348644e+00]]"
+_logger:
+  desc: null
+  value: <stable_baselines3.common.logger.Logger object at 0x0000018591350D90>
+_n_updates:
+  desc: null
+  value: 779899
+_num_timesteps_at_start:
+  desc: null
+  value: 0
+_stats_window_size:
+  desc: null
+  value: 100
+_total_timesteps:
+  desc: null
+  value: 10000000
+_vec_normalize_env:
+  desc: null
+  value: None
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1705926930.803891
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 1
+      - 2
+      - 22
+      - 23
+      - 34
+      4: 3.9.13
+      5: 0.14.0
+      8:
+      - 1
+      - 3
+      - 5
+action_noise:
+  desc: null
+  value: None
+action_space:
+  desc: null
+  value: Box(-100.0, 100.0, (2,), float32)
+actor:
+  desc: null
+  value: "Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=6,\
+    \ out_features=8, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=8,\
+    \ out_features=8, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=8,\
+    \ out_features=2, bias=True)\n  (log_std): Linear(in_features=8, out_features=2,\
+    \ bias=True)\n)"
+algo:
+  desc: null
+  value: SAC
+batch_norm_stats:
+  desc: null
+  value: '[]'
+batch_norm_stats_target:
+  desc: null
+  value: '[]'
+batch_size:
+  desc: null
+  value: 256
+buffer_size:
+  desc: null
+  value: 1000000
+critic:
+  desc: null
+  value: "ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten):\
+    \ Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n  )\n)"
+critic_target:
+  desc: null
+  value: "ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten):\
+    \ Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n  )\n)"
+device:
+  desc: null
+  value: cpu
+ent_coef:
+  desc: null
+  value: auto
+ent_coef_optimizer:
+  desc: null
+  value: "Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n\
+    \    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach:\
+    \ None\n    fused: None\n    lr: 0.0009220001\n    maximize: False\n    weight_decay:\
+    \ 0\n)"
+env:
+  desc: null
+  value: <stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001859131B460>
+ep_info_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+ep_success_buffer:
+  desc: null
+  value: deque([], maxlen=100)
+gamma:
+  desc: null
+  value: 0.99
+gradient_steps:
+  desc: null
+  value: 1
+learning_rate:
+  desc: null
+  value: <function linear_schedule.<locals>.func at 0x0000018591294040>
+learning_starts:
+  desc: null
+  value: 100
+log_ent_coef:
+  desc: null
+  value: tensor([-4.5362], requires_grad=True)
+lr_schedule:
+  desc: null
+  value: <function linear_schedule.<locals>.func at 0x0000018591294040>
+n_envs:
+  desc: null
+  value: 1
+num_timesteps:
+  desc: null
+  value: 0
+observation_space:
+  desc: null
+  value: Box([-10. -10. -inf -inf -45. -45.], [10. 10. inf inf 45. 45.], (6,), float32)
+optimize_memory_usage:
+  desc: null
+  value: 'False'
+policy:
+  desc: null
+  value: "SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n\
+    \      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n\
+    \      (0): Linear(in_features=6, out_features=8, bias=True)\n      (1): ReLU()\n\
+    \      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): ReLU()\n\
+    \    )\n    (mu): Linear(in_features=8, out_features=2, bias=True)\n    (log_std):\
+    \ Linear(in_features=8, out_features=2, bias=True)\n  )\n  (critic): ContinuousCritic(\n\
+    \    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n\
+    \    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1,\
+    \ end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8,\
+    \ out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256,\
+    \ out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256,\
+    \ out_features=1, bias=True)\n    )\n  )\n)"
+policy_class:
+  desc: null
+  value: <class 'stable_baselines3.sac.policies.SACPolicy'>
+policy_kwargs:
+  desc: null
+  value: '{''net_arch'': {''pi'': [8, 8], ''qf'': [256, 256]}, ''use_sde'': False}'
+replay_buffer:
+  desc: null
+  value: <stable_baselines3.common.buffers.ReplayBuffer object at 0x000001859131B310>
+replay_buffer_class:
+  desc: null
+  value: <class 'stable_baselines3.common.buffers.ReplayBuffer'>
+replay_buffer_kwargs:
+  desc: null
+  value: '{}'
+sde_sample_freq:
+  desc: null
+  value: -1
+seed:
+  desc: null
+  value: None
+start_time:
+  desc: null
+  value: 1705927186010225200
+target_entropy:
+  desc: null
+  value: -2.0
+target_update_interval:
+  desc: null
+  value: 1
+tau:
+  desc: null
+  value: 0.005
+tensorboard_log:
+  desc: null
+  value: 2gdl/
+train_freq:
+  desc: null
+  value: 'TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: ''step''>)'
+use_sde:
+  desc: null
+  value: 'False'
+use_sde_at_warmup:
+  desc: null
+  value: 'False'
+verbose:
+  desc: null
+  value: 1

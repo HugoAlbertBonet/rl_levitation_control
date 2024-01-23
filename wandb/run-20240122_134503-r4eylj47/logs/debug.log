@@ -1,0 +1,71 @@
+2024-01-22 13:45:03,417 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Configure stats pid to 25304
+2024-01-22 13:45:03,417 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-22 13:45:03,417 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-22 13:45:03,417 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-22 13:45:03,418 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-22 13:45:03,418 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-22 13:45:03,418 INFO    MainThread:25304 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240122_134503-r4eylj47\logs\debug.log
+2024-01-22 13:45:03,418 INFO    MainThread:25304 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240122_134503-r4eylj47\logs\debug-internal.log
+2024-01-22 13:45:03,419 INFO    MainThread:25304 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000018591350BB0>
+2024-01-22 13:45:03,419 INFO    MainThread:25304 [wandb_init.py:init():546] calling init triggers
+2024-01-22 13:45:03,419 INFO    MainThread:25304 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-22 13:45:03,419 INFO    MainThread:25304 [wandb_init.py:init():568] re-initializing run, found existing run on stack: gekniugk
+2024-01-22 13:45:03,421 INFO    MainThread:25304 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/gekniugk
+2024-01-22 13:45:03,421 INFO    MainThread:25304 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-01-22 13:45:03,422 INFO    MainThread:25304 [wandb_run.py:_restore():2066] restore
+2024-01-22 13:45:03,422 INFO    MainThread:25304 [wandb_run.py:_restore():2072] restore done
+2024-01-22 13:45:16,191 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-01-22 13:45:16,192 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-01-22 13:45:16,198 INFO    MainThread:25304 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2024-01-22 13:45:16,202 INFO    MainThread:25304 [wandb_init.py:init():602] starting backend
+2024-01-22 13:45:16,202 INFO    MainThread:25304 [wandb_init.py:init():606] setting up manager
+2024-01-22 13:45:16,207 INFO    MainThread:25304 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-01-22 13:45:16,213 INFO    MainThread:25304 [wandb_init.py:init():613] backend started and connected
+2024-01-22 13:45:16,217 INFO    MainThread:25304 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-01-22 13:45:16,217 INFO    MainThread:25304 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-22 13:45:16,217 INFO    MainThread:25304 [wandb_init.py:init():701] updated telemetry
+2024-01-22 13:45:16,448 INFO    MainThread:25304 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-01-22 13:45:17,639 INFO    MainThread:25304 [wandb_run.py:_on_init():2133] communicating current version
+2024-01-22 13:45:17,709 INFO    MainThread:25304 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-22 13:45:17,709 INFO    MainThread:25304 [wandb_init.py:init():789] starting run threads in backend
+2024-01-22 13:45:18,206 INFO    MainThread:25304 [wandb_run.py:_console_start():2114] atexit reg
+2024-01-22 13:45:18,207 INFO    MainThread:25304 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-01-22 13:45:18,207 INFO    MainThread:25304 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-01-22 13:45:18,207 INFO    MainThread:25304 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-01-22 13:45:18,208 INFO    MainThread:25304 [wandb_init.py:init():831] run started, returning control to user process
+2024-01-22 13:45:18,208 INFO    MainThread:25304 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-22 13:45:18,208 INFO    MainThread:25304 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-22 13:45:18,216 INFO    MainThread:25304 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-22 13:45:18,272 INFO    MainThread:25304 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-22 13:45:18,272 INFO    MainThread:25304 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-22 13:46:51,439 INFO    MainThread:25304 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-22 13:46:51,444 INFO    MainThread:25304 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-22 13:46:51,444 INFO    MainThread:25304 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-22 13:46:54,939 INFO    MainThread:25304 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-22 13:46:54,994 INFO    MainThread:25304 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-22 13:46:54,994 INFO    MainThread:25304 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-22 13:46:57,751 INFO    MainThread:25304 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-22 13:46:57,764 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Configure stats pid to 25304
+2024-01-22 13:46:57,764 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-22 13:46:57,765 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-22 13:46:57,765 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-22 13:46:57,765 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-22 13:46:57,765 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-22 13:46:57,766 INFO    MainThread:25304 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240122_134657-z25l4td4\logs\debug.log
+2024-01-22 13:46:57,766 INFO    MainThread:25304 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240122_134657-z25l4td4\logs\debug-internal.log
+2024-01-22 13:46:57,766 INFO    MainThread:25304 [wandb_init.py:init():546] calling init triggers
+2024-01-22 13:46:57,766 INFO    MainThread:25304 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-22 13:46:57,766 INFO    MainThread:25304 [wandb_init.py:init():568] re-initializing run, found existing run on stack: r4eylj47
+2024-01-22 13:46:57,768 INFO    MainThread:25304 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/r4eylj47
+2024-01-22 13:46:57,770 ERROR   MainThread:25304 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-01-22 13:46:57,770 INFO    MainThread:25304 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-22 13:46:57,770 INFO    MainThread:25304 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2024-01-22 13:46:57,770 INFO    MainThread:25304 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-01-22 13:46:57,770 INFO    MainThread:25304 [wandb_run.py:_restore():2066] restore
+2024-01-22 13:46:57,771 INFO    MainThread:25304 [wandb_run.py:_restore():2072] restore done
+2024-01-22 13:47:01,303 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-01-22 13:47:01,303 INFO    MainThread:25304 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-01-22 13:47:01,307 INFO    MainThread:25304 [wandb_run.py:_footer_sync_info():3380] logging synced files

@@ -1,0 +1,3 @@
+Using cpu device
+Wrapping the env in a DummyVecEnv.
+Logging to 2gdl/SAC_38
