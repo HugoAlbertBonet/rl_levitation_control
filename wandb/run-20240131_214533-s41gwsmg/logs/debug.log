@@ -1,0 +1,189 @@
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Configure stats pid to 20296
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-31 21:45:33,505 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-31 21:45:33,506 INFO    MainThread:20296 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240131_214533-s41gwsmg\logs\debug.log
+2024-01-31 21:45:33,506 INFO    MainThread:20296 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240131_214533-s41gwsmg\logs\debug-internal.log
+2024-01-31 21:45:33,506 INFO    MainThread:20296 [wandb_init.py:init():546] calling init triggers
+2024-01-31 21:45:33,506 INFO    MainThread:20296 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-31 21:45:33,506 INFO    MainThread:20296 [wandb_init.py:init():568] re-initializing run, found existing run on stack: 2un4ohua
+2024-01-31 21:45:33,509 INFO    MainThread:20296 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/2un4ohua
+2024-01-31 21:45:33,516 ERROR   MainThread:20296 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-01-31 21:45:33,516 INFO    MainThread:20296 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-31 21:45:33,516 INFO    MainThread:20296 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2024-01-31 21:45:33,516 INFO    MainThread:20296 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-01-31 21:45:33,516 INFO    MainThread:20296 [wandb_run.py:_restore():2066] restore
+2024-01-31 21:45:33,517 INFO    MainThread:20296 [wandb_run.py:_restore():2072] restore done
+2024-01-31 21:45:46,338 INFO    MainThread:20296 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-01-31 21:45:46,340 INFO    MainThread:20296 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-01-31 21:45:46,348 INFO    MainThread:20296 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2024-01-31 21:45:46,352 INFO    MainThread:20296 [wandb_init.py:init():602] starting backend
+2024-01-31 21:45:46,352 INFO    MainThread:20296 [wandb_init.py:init():606] setting up manager
+2024-01-31 21:45:46,356 INFO    MainThread:20296 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-01-31 21:45:46,359 INFO    MainThread:20296 [wandb_init.py:init():613] backend started and connected
+2024-01-31 21:45:46,363 INFO    MainThread:20296 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-01-31 21:45:46,363 INFO    MainThread:20296 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-31 21:45:46,363 INFO    MainThread:20296 [wandb_init.py:init():701] updated telemetry
+2024-01-31 21:45:47,280 INFO    MainThread:20296 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-01-31 21:45:48,277 INFO    MainThread:20296 [wandb_run.py:_on_init():2133] communicating current version
+2024-01-31 21:45:48,346 INFO    MainThread:20296 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-31 21:45:48,346 INFO    MainThread:20296 [wandb_init.py:init():789] starting run threads in backend
+2024-01-31 21:45:49,635 INFO    MainThread:20296 [wandb_run.py:_console_start():2114] atexit reg
+2024-01-31 21:45:49,636 INFO    MainThread:20296 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-01-31 21:45:49,636 INFO    MainThread:20296 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-01-31 21:45:49,636 INFO    MainThread:20296 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-01-31 21:45:49,637 INFO    MainThread:20296 [wandb_init.py:init():831] run started, returning control to user process
+2024-01-31 21:45:49,961 INFO    MainThread:20296 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 2gdl/SAC_57, True
+2024-01-31 21:45:49,983 INFO    MainThread:20296 [wandb_watch.py:watch():51] Watching
+2024-01-31 21:45:49,985 INFO    MainThread:20296 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [8, 8], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1706733949849117700, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000001C1F1686AF0>', 'tensorboard_log': '2gdl/', '_last_obs': '[[-3. -3. -3. -3.  0.  0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': '[[-0.00295642 -0.00612591  0.02979084  0.03094859  0.34615302 -2.6902592 ]]', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 0.8940001, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 1059899, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001C20C4DF6A0>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-10. -10. -10. -10. -45. -45.], [10. 10. 10. 10. 45. 45.], (6,), float32)', 'action_space': 'Box(-100.0, 100.0, (2,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x000001C20C4DF640>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -2.0, 'log_ent_coef': "tensor([-5.0552], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.0008940001\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000001C1F1686AF0>', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=6, out_features=8, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=8, out_features=2, bias=True)\n    (log_std): Linear(in_features=8, out_features=2, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=6, out_features=8, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=8, out_features=8, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=8, out_features=2, bias=True)\n  (log_std): Linear(in_features=8, out_features=2, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001C20C4B0B80>'}
+2024-01-31 21:51:01,512 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 21:56:08,167 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:01:14,173 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:06:11,630 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:11:22,965 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:16:31,882 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:21:44,748 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:26:55,865 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:32:09,574 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:37:20,994 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:42:24,290 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:47:19,340 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:52:19,073 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 22:57:16,936 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:02:18,041 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:07:16,700 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:12:25,637 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:17:37,970 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:22:55,499 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:28:09,592 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:33:07,612 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:38:07,758 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:43:15,001 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:48:37,958 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:53:52,063 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-01-31 23:59:12,374 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:04:01,663 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:08:53,543 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:13:48,691 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:18:54,305 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:23:48,198 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:28:52,714 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:33:46,633 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:38:51,396 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:43:40,709 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:48:43,618 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:53:31,335 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 00:58:36,497 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:03:23,506 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:08:29,027 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:13:13,740 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:18:22,798 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:23:05,691 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:28:12,277 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:32:51,922 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:37:58,243 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:42:35,612 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:47:42,300 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:52:21,748 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 01:57:27,660 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:02:07,621 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:07:15,648 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:11:57,387 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:17:04,556 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:21:47,571 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:26:53,271 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:31:38,552 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:36:44,687 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:41:30,280 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:46:33,465 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:51:20,942 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 02:56:23,771 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:01:12,819 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:06:15,968 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:11:05,881 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:16:07,392 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:20:58,037 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:25:58,164 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:30:50,188 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:35:49,638 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:40:41,820 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:45:39,577 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:50:32,381 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 03:55:28,917 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:00:22,424 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:05:16,985 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:10:10,845 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:15:04,121 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:19:57,991 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:24:51,573 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:29:46,808 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:34:40,041 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:39:35,372 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:44:27,974 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:49:26,137 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:54:17,142 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 04:59:19,458 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:04:22,801 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:09:22,754 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:14:13,431 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:19:14,270 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:24:04,580 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:29:08,242 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:33:57,393 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:39:00,213 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:43:47,202 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:48:51,898 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:53:39,260 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 05:58:44,573 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:03:30,507 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:08:38,718 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:13:20,629 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:18:28,246 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:23:09,000 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:28:18,002 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:32:57,466 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:38:06,284 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:42:45,407 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:47:52,212 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:52:32,074 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 06:57:38,836 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:02:21,034 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:07:28,017 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:12:12,178 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:17:17,768 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:22:03,824 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:27:07,264 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:31:54,225 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:36:58,920 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:41:48,192 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:46:51,539 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:51:41,765 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 07:56:44,969 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 08:01:35,416 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 08:06:38,996 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 08:11:30,576 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 08:16:30,507 INFO    MainThread:20296 [sb3.py:save_model():153] Saving model checkpoint to models/2gdl8x8fs-passalis13a19\model.zip
+2024-02-01 15:34:40,418 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Configure stats pid to 20296
+2024-02-01 15:34:40,421 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-02-01 15:34:40,421 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-02-01 15:34:40,421 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-01 15:34:40,421 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-01 15:34:40,421 INFO    MainThread:20296 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-01 15:34:40,425 INFO    MainThread:20296 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240201_153440-lyqgj13f\logs\debug.log
+2024-02-01 15:34:40,425 INFO    MainThread:20296 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240201_153440-lyqgj13f\logs\debug-internal.log
+2024-02-01 15:34:40,426 INFO    MainThread:20296 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001C20C5C32E0>
+2024-02-01 15:34:40,430 INFO    MainThread:20296 [wandb_init.py:init():546] calling init triggers
+2024-02-01 15:34:40,431 INFO    MainThread:20296 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-02-01 15:34:40,431 INFO    MainThread:20296 [wandb_init.py:init():568] re-initializing run, found existing run on stack: s41gwsmg
+2024-02-01 15:34:40,436 INFO    MainThread:20296 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/s41gwsmg
+2024-02-01 15:34:40,437 INFO    MainThread:20296 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-02-01 15:34:40,439 INFO    MainThread:20296 [wandb_run.py:_restore():2066] restore
+2024-02-01 15:34:40,441 INFO    MainThread:20296 [wandb_run.py:_restore():2072] restore done
+2024-02-01 15:34:52,881 INFO    MainThread:20296 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-02-01 15:34:52,884 INFO    MainThread:20296 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-02-01 15:34:52,912 INFO    MainThread:20296 [wandb_run.py:_footer_sync_info():3380] logging synced files

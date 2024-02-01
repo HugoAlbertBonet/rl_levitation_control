@@ -1,0 +1,72 @@
+2024-01-29 11:38:43,871 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Configure stats pid to 17360
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240129_113843-tc4ggih5\logs\debug.log
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240129_113843-tc4ggih5\logs\debug-internal.log
+2024-01-29 11:38:43,872 INFO    MainThread:17360 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000152EE583A30>
+2024-01-29 11:38:43,873 INFO    MainThread:17360 [wandb_init.py:init():546] calling init triggers
+2024-01-29 11:38:43,873 INFO    MainThread:17360 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-29 11:38:43,873 INFO    MainThread:17360 [wandb_init.py:init():602] starting backend
+2024-01-29 11:38:43,873 INFO    MainThread:17360 [wandb_init.py:init():606] setting up manager
+2024-01-29 11:38:43,877 INFO    MainThread:17360 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-01-29 11:38:43,884 INFO    MainThread:17360 [wandb_init.py:init():613] backend started and connected
+2024-01-29 11:38:43,888 INFO    MainThread:17360 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-01-29 11:38:43,890 INFO    MainThread:17360 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-01-29 11:38:43,890 INFO    MainThread:17360 [wandb_init.py:init():701] updated telemetry
+2024-01-29 11:38:44,072 INFO    MainThread:17360 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-01-29 11:38:44,601 INFO    MainThread:17360 [wandb_run.py:_on_init():2133] communicating current version
+2024-01-29 11:38:44,669 INFO    MainThread:17360 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-01-29 11:38:44,670 INFO    MainThread:17360 [wandb_init.py:init():789] starting run threads in backend
+2024-01-29 11:38:45,155 INFO    MainThread:17360 [wandb_run.py:_console_start():2114] atexit reg
+2024-01-29 11:38:45,155 INFO    MainThread:17360 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-01-29 11:38:45,155 INFO    MainThread:17360 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-01-29 11:38:45,155 INFO    MainThread:17360 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-01-29 11:38:45,156 INFO    MainThread:17360 [wandb_init.py:init():831] run started, returning control to user process
+2024-01-29 11:38:45,156 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:38:45,156 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:38:45,177 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:38:45,183 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:38:45,184 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:38:47,121 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:38:47,152 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:38:47,152 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:38:54,621 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:38:54,652 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:38:54,653 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:38:58,273 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:38:58,275 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:38:58,275 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:39:01,682 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:39:01,790 INFO    MainThread:17360 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 2gdl/SAC_50, True
+2024-01-29 11:39:01,869 INFO    MainThread:17360 [wandb_watch.py:watch():51] Watching
+2024-01-29 11:39:01,872 INFO    MainThread:17360 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [8, 8], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1706524741686086700, 'learning_rate': '<function linear_schedule.<locals>.func at 0x00000152E95929D0>', 'tensorboard_log': '2gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x00000152F95F0550>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-10. -10. -inf -inf -45. -45.], [10. 10. inf inf 45. 45.], (6,), float32)', 'action_space': 'Box(-100.0, 100.0, (2,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x00000152F95F0A00>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -2.0, 'log_ent_coef': "tensor([0.], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.001\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x00000152E95929D0>', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=6, out_features=8, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=8, out_features=2, bias=True)\n    (log_std): Linear(in_features=8, out_features=2, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=8, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=6, out_features=8, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=8, out_features=8, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=8, out_features=2, bias=True)\n  (log_std): Linear(in_features=8, out_features=2, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=8, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', '_logger': '<stable_baselines3.common.logger.Logger object at 0x00000152E8E1DDF0>'}
+2024-01-29 11:39:40,197 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:39:40,197 INFO    MainThread:17360 [wandb_init.py:_pause_backend():417] pausing backend
+2024-01-29 11:39:45,953 INFO    MainThread:17360 [wandb_init.py:_resume_backend():422] resuming backend
+2024-01-29 11:39:45,966 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Configure stats pid to 17360
+2024-01-29 11:39:45,966 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-01-29 11:39:45,966 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-01-29 11:39:45,967 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-01-29 11:39:45,967 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-29 11:39:45,967 INFO    MainThread:17360 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-01-29 11:39:45,967 INFO    MainThread:17360 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240129_113945-sc3uf3u7\logs\debug.log
+2024-01-29 11:39:45,967 INFO    MainThread:17360 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240129_113945-sc3uf3u7\logs\debug-internal.log
+2024-01-29 11:39:45,968 INFO    MainThread:17360 [wandb_init.py:init():546] calling init triggers
+2024-01-29 11:39:45,968 INFO    MainThread:17360 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-01-29 11:39:45,968 INFO    MainThread:17360 [wandb_init.py:init():568] re-initializing run, found existing run on stack: tc4ggih5
+2024-01-29 11:39:45,969 INFO    MainThread:17360 [wandb_run.py:_finish():1854] finishing run hyperloopupv/2gdl/tc4ggih5
+2024-01-29 11:39:45,971 ERROR   MainThread:17360 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-01-29 11:39:45,971 INFO    MainThread:17360 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-01-29 11:39:45,971 INFO    MainThread:17360 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2024-01-29 11:39:45,971 INFO    MainThread:17360 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-01-29 11:39:45,972 INFO    MainThread:17360 [wandb_run.py:_restore():2066] restore
+2024-01-29 11:39:45,972 INFO    MainThread:17360 [wandb_run.py:_restore():2072] restore done
+2024-01-29 11:39:56,969 INFO    MainThread:17360 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2024-01-29 11:39:56,969 INFO    MainThread:17360 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2024-01-29 11:39:56,973 INFO    MainThread:17360 [wandb_run.py:_footer_sync_info():3380] logging synced files

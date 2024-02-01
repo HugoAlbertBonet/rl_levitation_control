@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-02-01T16:25:49.512200",
+    "startedAt": "2024-02-01T16:25:35.616081",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:HugoAlbertBonet/rl_levitation_control.git",
+        "commit": "89f25d856387aa2d1a10897e443196446cef427e"
+    },
+    "email": "hugo.albert.16@gmail.com",
+    "root": "C:/Users/hugoa/H9/RL/GitHub Vrain/rl_levitation_control/rl_levitation_control",
+    "host": "DESKTOP-7D88GMF",
+    "username": "hugoa",
+    "executable": "C:\\Users\\hugoa\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "total": 952.5908164978027,
+        "used": 565.5923461914062
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.856746673583984
+    }
+}

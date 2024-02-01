@@ -1,0 +1,248 @@
+Neural Network Tools for STM32 family v1.7.0 (stm.ai v8.1.0-19520)
+Created date          : 2024-01-31 16:23:12
+Parameters            : validate --name onedof -m C:/Users/Hugo/Downloads/1gdlComplexH98x8.onnx --type onnx --compression low --verbosity 1 --workspace C:\Users\Hugo\AppData\Local\Temp\mxAI_workspace16291532931780016511124060717125154 --output C:\Users\Hugo\.stm32cubemx\network_output --allocate-inputs -O time --allocate-outputs --mode stm32 --desc 115200
+
+Exec/report summary (validate)
+------------------------------------------------------------------------------------------------------------
+model file         :   C:\Users\Hugo\Downloads\1gdlComplexH98x8.onnx                                        
+type               :   onnx                                                                                 
+c_name             :   onedof                                                                               
+compression        :   low                                                                                  
+options            :   allocate-inputs, allocate-outputs                                                    
+optimization       :   time                                                                                 
+workspace dir      :   C:\Users\Hugo\AppData\Local\Temp\mxAI_workspace16291532931780016511124060717125154   
+output dir         :   C:\Users\Hugo\.stm32cubemx\network_output                                            
+model_fmt          :   float                                                                                
+model_name         :   node_1gdlComplexH98x8                                                                
+model_hash         :   7e4d79fe4e25a8e6bd9fb1820af3fa6d                                                     
+params #           :   121 items (484 B)                                                                    
+------------------------------------------------------------------------------------------------------------
+input 1/1          :   'input' (domain:activations/**default**)                                             
+                   :   4 items, 16 B, ai_float, float, (1,4)                                                
+output 1/1         :   'node_12' (domain:activations/**default**)                                           
+                   :   1 items, 4 B, ai_float, float, (1,1)                                                 
+macc               :   147                                                                                  
+weights (ro)       :   484 B (484 B) (1 segment)                                                            
+activations (rw)   :   64 B (64 B) (1 segment) *                                                            
+ram (total)        :   64 B (64 B) = 64 + 0 + 0                                                             
+------------------------------------------------------------------------------------------------------------
+(*) 'input'/'output' buffers can be used from the activations buffer
+
+Model name - node_1gdlComplexH98x8 ['input'] ['node_12']
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+m_id   layer (type,original)                                         oshape          param/size     macc                             connected to   | c_size          c_macc        c_type          
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+0      actor_0_0_weight (Placeholder, Gemm)                          [h:8,h:8,c:4]   32/128                                                         | -128(-100.0%)                 
+       actor_0_0_bias (Placeholder, Gemm)                            [c:8]           8/32                                                           | -32(-100.0%)                  
+       actor_0_2_weight (Placeholder, Gemm)                          [h:8,h:8,c:8]   64/256                                                         | -256(-100.0%)                 
+       actor_0_2_bias (Placeholder, Gemm)                            [c:8]           8/32                                                           | -32(-100.0%)                  
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+5      actor_1_weight (Placeholder, Gemm)                            [h:1,h:1,c:8]   8/32                                                           | +4(+12.5%)      +9(+100.0%)   dense_of32[4]   
+       actor_1_bias (Placeholder, Gemm)                              [c:1]           1/4                                                            | -4(-100.0%)                   
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+0      input (Input, )                                               [b:1,c:4]                                                                      |                               
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+1      _actor_actor_0_actor_0_0_Gemm_output_0 (Gemm, Gemm)           [b:1,c:8]                        40                                    input   | +160(+100.0%)                 dense_of32[0]   
+                                                                                                                                 actor_0_0_weight   | 
+                                                                                                                                   actor_0_0_bias   | 
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+2      _actor_actor_0_actor_0_1_Relu_output_0 (Nonlinearity, Relu)   [b:1,c:8]                         8   _actor_actor_0_actor_0_0_Gemm_output_0   |                               nl_of32[1]      
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+3      _actor_actor_0_actor_0_2_Gemm_output_0 (Gemm, Gemm)           [b:1,c:8]                        72   _actor_actor_0_actor_0_1_Relu_output_0   | +288(+100.0%)                 dense_of32[2]   
+                                                                                                                                 actor_0_2_weight   | 
+                                                                                                                                   actor_0_2_bias   | 
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+4      _actor_actor_0_actor_0_3_Relu_output_0 (Nonlinearity, Relu)   [b:1,c:8]                         8   _actor_actor_0_actor_0_2_Gemm_output_0   |                               nl_of32[3]      
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+5      _actor_actor_1_Gemm_output_0 (Gemm, Gemm)                     [b:1,c:1]                         9   _actor_actor_0_actor_0_3_Relu_output_0   |                 -9(-100.0%)   
+                                                                                                                                   actor_1_weight   | 
+                                                                                                                                     actor_1_bias   | 
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+6      node_12 (Nonlinearity, Tanh)                                  [b:1,c:1]                        10             _actor_actor_1_Gemm_output_0   |                               nl_of32[o][5]   
+------ ------------------------------------------------------------- --------------- ------------ ------ ---------------------------------------- --- --------------- ------------- --------------- 
+model/c-model: macc=147/147  weights=484/484  activations=--/64 io=--/0
+
+
+
+Generated C-graph summary
+------------------------------------------------------------------------------------------------------------------------
+model name            : node_1gdlcomplexh98x8
+c-name                : onedof
+c-node #              : 6
+c-array #             : 13
+activations size      : 64 (1 segment)
+weights size          : 484 (1 segment)
+macc                  : 147
+inputs                : ['input_output']
+outputs               : ['node_12_output']
+
+C-Arrays (13)
+------ ------------------------------------------------ ----------- ------------------------- ------------- --------- --------- 
+c_id   name (*_array)                                   item/size   domain/mem-pool           c-type        fmt       comment   
+------ ------------------------------------------------ ----------- ------------------------- ------------- --------- --------- 
+0      _actor_actor_1_Gemm_output_0_bias                1/4         weights/weights           const float   float32             
+1      input_output                                     4/16        activations/**default**   float         float32   /input    
+2      _actor_actor_0_actor_0_0_Gemm_output_0_output    8/32        activations/**default**   float         float32             
+3      _actor_actor_0_actor_0_1_Relu_output_0_output    8/32        activations/**default**   float         float32             
+4      _actor_actor_0_actor_0_2_Gemm_output_0_output    8/32        activations/**default**   float         float32             
+5      _actor_actor_0_actor_0_3_Relu_output_0_output    8/32        activations/**default**   float         float32             
+6      _actor_actor_1_Gemm_output_0_output              1/4         activations/**default**   float         float32             
+7      node_12_output                                   1/4         activations/**default**   float         float32   /output   
+8      _actor_actor_0_actor_0_0_Gemm_output_0_weights   32/128      weights/weights           const float   float32             
+9      _actor_actor_0_actor_0_0_Gemm_output_0_bias      8/32        weights/weights           const float   float32             
+10     _actor_actor_0_actor_0_2_Gemm_output_0_weights   64/256      weights/weights           const float   float32             
+11     _actor_actor_0_actor_0_2_Gemm_output_0_bias      8/32        weights/weights           const float   float32             
+12     _actor_actor_1_Gemm_output_0_weights             8/32        weights/weights           const float   float32             
+------ ------------------------------------------------ ----------- ------------------------- ------------- --------- --------- 
+
+C-Layers (6)
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+c_id   name (*_layer)                           id   layer_type   macc   rom   tensors                                             shape (array id)   
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+0      _actor_actor_0_actor_0_0_Gemm_output_0   1    dense        40     160   I: input_output                                     (1,4) (1)          
+                                                                               W: _actor_actor_0_actor_0_0_Gemm_output_0_weights   (4,8) (8)          
+                                                                               W: _actor_actor_0_actor_0_0_Gemm_output_0_bias      (8,) (9)           
+                                                                               O: _actor_actor_0_actor_0_0_Gemm_output_0_output    (1,8) (2)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+1      _actor_actor_0_actor_0_1_Relu_output_0   2    nl           8      0     I: _actor_actor_0_actor_0_0_Gemm_output_0_output    (1,8) (2)          
+                                                                               O: _actor_actor_0_actor_0_1_Relu_output_0_output    (1,8) (3)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+2      _actor_actor_0_actor_0_2_Gemm_output_0   3    dense        72     288   I: _actor_actor_0_actor_0_1_Relu_output_0_output    (1,8) (3)          
+                                                                               W: _actor_actor_0_actor_0_2_Gemm_output_0_weights   (8,8) (10)         
+                                                                               W: _actor_actor_0_actor_0_2_Gemm_output_0_bias      (8,) (11)          
+                                                                               O: _actor_actor_0_actor_0_2_Gemm_output_0_output    (1,8) (4)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+3      _actor_actor_0_actor_0_3_Relu_output_0   4    nl           8      0     I: _actor_actor_0_actor_0_2_Gemm_output_0_output    (1,8) (4)          
+                                                                               O: _actor_actor_0_actor_0_3_Relu_output_0_output    (1,8) (5)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+4      _actor_actor_1_Gemm_output_0             5    dense        9      36    I: _actor_actor_0_actor_0_3_Relu_output_0_output    (1,8) (5)          
+                                                                               W: _actor_actor_1_Gemm_output_0_weights             (8,1) (12)         
+                                                                               W: _actor_actor_1_Gemm_output_0_bias                (1,) (0)           
+                                                                               O: _actor_actor_1_Gemm_output_0_output              (1,1) (6)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+5      node_12                                  6    nl           10     0     I: _actor_actor_1_Gemm_output_0_output              (1,1) (6)          
+                                                                               O: node_12_output                                   (1,1) (7)          
+------ ---------------------------------------- ---- ------------ ------ ----- --------------------------------------------------- ------------------ 
+ 
+Setting validation data...
+ generating random data, size=10, seed=42, range=(0, 1)
+ I[1]: (10, 1, 1, 4)/float32, min/max=[0.021, 0.970], mean/std=[0.456, 0.292], input
+ No output/reference samples are provided
+ 
+Running the STM AI c-model (AI RUNNER)...(name=onedof, mode=stm32)
+
+ STM Proto-buffer protocol 3.0 (SERIAL:COM3:115200:connected) ['onedof']
+  
+  Summary "onedof" - ['onedof']
+  --------------------------------------------------------------------------------------
+  inputs/ouputs      :   1/1                                                            
+  input_1            :   input_1, (1,1,1,4), float32, 16 bytes, in activations buffer   
+  output_1           :   output_1, (1,1,1,1), float32, 4 bytes, in activations buffer   
+  n_nodes            :   6                                                              
+  compile_datetime   :   Jan 31 2024 16:23:01                                           
+  activations        :   64                                                             
+  weights            :   484                                                            
+  macc               :   147                                                            
+  --------------------------------------------------------------------------------------
+  runtime            :   STM.AI(/gcc) 8.1.0 (Tools 8.1.0) - Protocol 3.0                
+  capabilities       :   IO_ONLY, PER_LAYER, PER_LAYER_WITH_DATA                        
+  device             :   0x483 - STM32H7[2,3]x @550/275                                 
+                         fpu,art_lat=3,core_icache,core_dcache                          
+  
+  STM.AI Profiling results v1.2 - onedof
+  ------------------------------------------------------------
+  nb sample(s)    :   10                                      
+  duration        :   0.005ms by sample (0.005/0.007/0.001)   
+  macc            :   147                                     
+  cycles/MACC     :   18.89                                   
+  counter         :   [2,775]                                 
+  ------------------------------------------------------------
+  HOST duration   :   0.818s (total)                          
+  ------------------------------------------------------------
+   
+   Inference time per node
+   --------------------------------------------------------------------------------------
+   c_id    m_id   type            dur (ms)     %         counters            name        
+   --------------------------------------------------------------------------------------
+   0       1      Dense (0x104)        0.001     22.9%   [            636]   ai_node_0   
+   1       2      NL (0x107)           0.000      9.3%   [            259]   ai_node_1   
+   2       3      Dense (0x104)        0.001     25.0%   [            694]   ai_node_2   
+   3       4      NL (0x107)           0.000      9.0%   [            249]   ai_node_3   
+   4       5      Dense (0x104)        0.001     14.6%   [            405]   ai_node_4   
+   5       6      NL (0x107)           0.001     19.2%   [            532]   ai_node_5   
+   --------------------------------------------------------------------------------------
+   total                               0.005             [          2,775]               
+   --------------------------------------------------------------------------------------
+   
+   Statistic per tensor
+   --------------------------------------------------------------------------
+   tensor   shape/type              min     max     mean      std name       
+   --------------------------------------------------------------------------
+   I.0      (1,1,1,4)/float32     0.021   0.970    0.456    0.292 input_1    
+   O.0      (1,1,1,1)/float32     0.986   0.999    0.987    0.004 output_1   
+   --------------------------------------------------------------------------
+ 
+Saving validation data...
+ output directory: C:\Users\Hugo\.stm32cubemx\network_output
+ creating C:\Users\Hugo\.stm32cubemx\network_output\onedof_val_io.npz
+ m_outputs_1: (10, 1, 1, 1)/float64, min/max=[0.986, 0.999], mean/std=[0.987, 0.004], node_12
+ c_outputs_1: (10, 1, 1, 1)/float32, min/max=[0.986, 0.999], mean/std=[0.987, 0.004], node_12
+
+ 
+Computing the metrics...
+
+ Cross accuracy report #1 (reference vs C-model)
+ ----------------------------------------------------------------------------------------------------
+ notes: - data type is different: r/float64 instead p/float32
+        - the output of the reference model is used as ground truth/reference value
+        - 10 samples (1 items per sample)
+
+  acc=n.a., rmse=0.000000060, mae=0.000000060, l2r=0.000000060, nse=100.00%, cos=100.00%
+
+
+Number of operations per c-layer
+------- ------ ------------------------------------------------ ----- -------------- -------- ---------- 
+c_id    m_id   name (type)                                        #op           type   #param   sparsity 
+------- ------ ------------------------------------------------ ----- -------------- -------- ---------- 
+0       1      _actor_actor_0_actor_0_0_Gemm_output_0 (dense)      40   smul_f32_f32       40     0.0000 
+1       2      _actor_actor_0_actor_0_1_Relu_output_0 (nl)          8     op_f32_f32          
+2       3      _actor_actor_0_actor_0_2_Gemm_output_0 (dense)      72   smul_f32_f32       72     0.0000 
+3       4      _actor_actor_0_actor_0_3_Relu_output_0 (nl)          8     op_f32_f32          
+4       5      _actor_actor_1_Gemm_output_0 (dense)                 9   smul_f32_f32        9     0.0000 
+5       6      node_12 (nl)                                        10     op_f32_f32          
+------- ------ ------------------------------------------------ ----- -------------- -------- ---------- 
+total                                                             147                     121     0.0000 
+
+Number of operation types
+---------------- ----- ----------- 
+operation type       #           % 
+---------------- ----- ----------- 
+smul_f32_f32       121       82.3% 
+op_f32_f32          26       17.7% 
+
+Complexity report (model)
+------ ---------------------------------------- ------------------------- ------------------------- ------ -------- ------------------ 
+m_id   name                                     c_macc                    c_rom                     c_id   c_dur    l2r (X-CROSS)      
+------ ---------------------------------------- ------------------------- ------------------------- ------ -------- ------------------ 
+5      actor_1_weight                           ||                 6.1%   ||                 7.4%   [4]     14.6%                      
+1      _actor_actor_0_actor_0_0_Gemm_output_0   |||||||||         27.2%   |||||||||         33.1%   [0]     22.9%                      
+2      _actor_actor_0_actor_0_1_Relu_output_0   ||                 5.4%   |                  0.0%   [1]      9.3%                      
+3      _actor_actor_0_actor_0_2_Gemm_output_0   ||||||||||||||||  49.0%   ||||||||||||||||  59.5%   [2]     25.0%                      
+4      _actor_actor_0_actor_0_3_Relu_output_0   ||                 5.4%   |                  0.0%   [3]      9.0%                      
+6      node_12                                  |||                6.8%   |                  0.0%   [5]     19.2%   6.03725852e-08 *   
+------ ---------------------------------------- ------------------------- ------------------------- ------ -------- ------------------ 
+macc=147 weights=484 act=64 ram_io=0
+
+Evaluation report (summary)
+---------------------------------------------------------------------------------------------------------------------------------------------
+Output       acc    rmse        mae         l2r         mean        std         nse         cos         tensor                               
+---------------------------------------------------------------------------------------------------------------------------------------------
+X-cross #1   n.a.   0.0000001   0.0000001   0.0000001   0.0000000   0.0000000   1.0000000   1.0000000   node_12, ai_float, (1,1), m_id=[6]   
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+ acc  : Classification accuracy (all classes)
+ rmse : Root Mean Squared Error
+ mae  : Mean Absolute Error
+ l2r  : L2 relative error
+ nse  : Nash-Sutcliffe efficiency criteria
+ cos  : COsine Similarity
