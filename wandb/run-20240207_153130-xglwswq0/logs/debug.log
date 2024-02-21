@@ -1,0 +1,54 @@
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Configure stats pid to 28056
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-07 15:31:30,863 INFO    MainThread:28056 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240207_153130-xglwswq0\logs\debug.log
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240207_153130-xglwswq0\logs\debug-internal.log
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001FDEBB8C4C0>
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:init():546] calling init triggers
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:init():602] starting backend
+2024-02-07 15:31:30,864 INFO    MainThread:28056 [wandb_init.py:init():606] setting up manager
+2024-02-07 15:31:30,868 INFO    MainThread:28056 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-02-07 15:31:30,874 INFO    MainThread:28056 [wandb_init.py:init():613] backend started and connected
+2024-02-07 15:31:30,879 INFO    MainThread:28056 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-02-07 15:31:30,881 INFO    MainThread:28056 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-07 15:31:30,881 INFO    MainThread:28056 [wandb_init.py:init():701] updated telemetry
+2024-02-07 15:31:31,047 INFO    MainThread:28056 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-02-07 15:31:31,467 INFO    MainThread:28056 [wandb_run.py:_on_init():2133] communicating current version
+2024-02-07 15:31:31,543 INFO    MainThread:28056 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-02-07 15:31:31,543 INFO    MainThread:28056 [wandb_init.py:init():789] starting run threads in backend
+2024-02-07 15:31:32,017 INFO    MainThread:28056 [wandb_run.py:_console_start():2114] atexit reg
+2024-02-07 15:31:32,017 INFO    MainThread:28056 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-02-07 15:31:32,018 INFO    MainThread:28056 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-02-07 15:31:32,018 INFO    MainThread:28056 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-02-07 15:31:32,018 INFO    MainThread:28056 [wandb_init.py:init():831] run started, returning control to user process
+2024-02-07 15:31:32,019 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:31:32,019 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:31:37,813 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:31:38,942 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:31:38,942 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:32:18,614 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:32:19,906 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:32:19,906 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:32:46,156 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:32:46,158 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:32:46,158 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:34:27,475 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:34:27,537 INFO    MainThread:28056 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 2gdl/A2C_1, True
+2024-02-07 15:34:27,542 INFO    MainThread:28056 [wandb_watch.py:watch():51] Watching
+2024-02-07 15:34:27,544 INFO    MainThread:28056 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'A2C', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [8, 8], 'vf': [256, 256]}, 'optimizer_class': <class 'torch.optim.rmsprop.RMSprop'>, 'optimizer_kwargs': {'alpha': 0.99, 'eps': 1e-05, 'weight_decay': 0}}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1707316467478739100, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000001FDB015B550>', 'tensorboard_log': '2gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001FDB2837B50>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-10. -10. -10. -10. -45. -45.], [10. 10. 10. 10. 45. 45.], (6,), float32)', 'action_space': 'Box(-100.0, 100.0, (2,), float32)', 'n_envs': 1, 'n_steps': 5, 'gamma': 0.99, 'gae_lambda': 1.0, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'normalize_advantage': 'False', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000001FDB015B550>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x000001FDB28378B0>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=6, out_features=8, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=6, out_features=256, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=8, out_features=2, bias=True)\n  (value_net): Linear(in_features=256, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001FDB2819280>'}
+2024-02-07 15:37:06,217 INFO    MainThread:28056 [sb3.py:save_model():153] Saving model checkpoint to models/2gdlA2C\model.zip
+2024-02-07 15:37:09,124 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:37:09,124 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:37:55,574 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:37:55,589 INFO    MainThread:28056 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-07 15:37:55,589 INFO    MainThread:28056 [wandb_init.py:_pause_backend():417] pausing backend
+2024-02-07 15:37:59,590 INFO    MainThread:28056 [wandb_init.py:_resume_backend():422] resuming backend
+2024-02-07 15:37:59,623 INFO    MainThread:28056 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 2gdl/A2C_2, True
+2024-02-07 15:37:59,627 INFO    MainThread:28056 [wandb_watch.py:watch():51] Watching
+2024-02-07 15:37:59,628 INFO    MainThread:28056 [wandb_run.py:_config_callback():1251] config_cb None None {}
