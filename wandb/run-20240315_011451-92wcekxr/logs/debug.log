@@ -1,0 +1,375 @@
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Configure stats pid to 7276
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-15 01:14:51,439 INFO    MainThread:7276 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-15 01:14:51,440 INFO    MainThread:7276 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240315_011451-92wcekxr\logs\debug.log
+2024-03-15 01:14:51,440 INFO    MainThread:7276 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240315_011451-92wcekxr\logs\debug-internal.log
+2024-03-15 01:14:51,440 INFO    MainThread:7276 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002009F6D78B0>
+2024-03-15 01:14:51,441 INFO    MainThread:7276 [wandb_init.py:init():546] calling init triggers
+2024-03-15 01:14:51,441 INFO    MainThread:7276 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-03-15 01:14:51,441 INFO    MainThread:7276 [wandb_init.py:init():602] starting backend
+2024-03-15 01:14:51,441 INFO    MainThread:7276 [wandb_init.py:init():606] setting up manager
+2024-03-15 01:14:51,444 INFO    MainThread:7276 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-03-15 01:14:51,449 INFO    MainThread:7276 [wandb_init.py:init():613] backend started and connected
+2024-03-15 01:14:51,451 INFO    MainThread:7276 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-03-15 01:14:51,452 INFO    MainThread:7276 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-15 01:14:51,453 INFO    MainThread:7276 [wandb_init.py:init():701] updated telemetry
+2024-03-15 01:14:51,631 INFO    MainThread:7276 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-03-15 01:14:52,075 INFO    MainThread:7276 [wandb_run.py:_on_init():2133] communicating current version
+2024-03-15 01:14:52,176 INFO    MainThread:7276 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-15 01:14:52,176 INFO    MainThread:7276 [wandb_init.py:init():789] starting run threads in backend
+2024-03-15 01:14:52,636 INFO    MainThread:7276 [wandb_run.py:_console_start():2114] atexit reg
+2024-03-15 01:14:52,637 INFO    MainThread:7276 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-03-15 01:14:52,637 INFO    MainThread:7276 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-03-15 01:14:52,637 INFO    MainThread:7276 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-03-15 01:14:52,638 INFO    MainThread:7276 [wandb_init.py:init():831] run started, returning control to user process
+2024-03-15 01:14:52,638 INFO    MainThread:7276 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-15 01:14:52,638 INFO    MainThread:7276 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-15 01:14:52,648 INFO    MainThread:7276 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-15 01:14:54,849 INFO    MainThread:7276 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-15 01:14:54,849 INFO    MainThread:7276 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-15 01:14:54,863 INFO    MainThread:7276 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-15 01:14:55,679 INFO    MainThread:7276 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-15 01:14:55,679 INFO    MainThread:7276 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-15 01:14:58,229 INFO    MainThread:7276 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-15 01:14:58,231 INFO    MainThread:7276 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-15 01:14:58,232 INFO    MainThread:7276 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-15 01:15:01,180 INFO    MainThread:7276 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-15 01:15:01,839 INFO    MainThread:7276 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 5gdl/SAC_11, True
+2024-03-15 01:15:01,858 INFO    MainThread:7276 [wandb_watch.py:watch():51] Watching
+2024-03-15 01:15:01,859 INFO    MainThread:7276 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [8, 8], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1710461701183076700, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000002009F736F70>', 'tensorboard_log': '5gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n  0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x00000200A6578430>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 70.64  70.64  70.64  70.64 136.8  136.8  136.8  136.8   70.64  70.64\n  70.64  70.64 136.8  136.8  136.8  136.8  -45.   -45.   -45.   -45.\n -45.   -45.   -45.   -45.   -45.   -45.  ], [ 84.14  84.14  84.14  84.14 148.8  148.8  148.8  148.8   84.14  84.14\n  84.14  84.14 148.8  148.8  148.8  148.8   45.    45.    45.    45.\n  45.    45.    45.    45.    45.    45.  ], (26,), float32)', 'action_space': 'Box(-100.0, 100.0, (10,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x00000200A65FB400>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -10.0, 'log_ent_coef': "tensor([0.], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.001\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000002009F736F70>', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=26, out_features=8, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=8, out_features=8, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=8, out_features=10, bias=True)\n    (log_std): Linear(in_features=8, out_features=10, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=26, out_features=8, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=8, out_features=8, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=8, out_features=10, bias=True)\n  (log_std): Linear(in_features=8, out_features=10, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', '_logger': '<stable_baselines3.common.logger.Logger object at 0x00000200C6DF2E80>'}
+2024-03-15 01:30:58,670 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 01:47:37,401 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 02:04:08,221 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 02:20:08,673 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 02:36:06,212 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 02:52:40,685 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 03:09:15,607 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 03:25:49,603 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 03:42:21,563 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 03:58:41,186 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 04:15:13,279 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 04:31:48,854 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 04:48:25,564 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 05:05:00,330 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 05:21:36,450 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 05:38:11,999 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 05:54:43,726 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 06:11:18,139 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 06:27:50,958 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 06:44:25,950 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 07:00:58,483 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 07:17:30,678 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 07:34:04,518 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 07:50:35,267 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 08:07:06,615 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 08:23:41,170 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 08:40:17,368 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 08:56:51,424 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 09:13:28,226 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 09:30:00,811 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 09:46:34,008 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 10:03:08,269 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 10:19:43,343 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 10:36:18,152 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 10:52:50,867 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 11:09:24,760 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 11:26:00,962 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 11:41:30,758 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 11:57:37,177 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 12:14:12,437 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 12:30:47,805 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 12:47:23,799 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 13:03:57,464 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 13:20:32,572 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 13:37:05,587 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 13:53:37,175 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 14:10:08,385 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 14:26:43,216 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 14:43:16,851 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 14:59:47,269 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 15:16:20,739 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 15:32:57,268 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 15:49:30,015 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 16:06:02,879 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 16:21:59,832 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 16:38:34,642 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 16:55:07,189 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 17:11:40,147 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 17:28:16,357 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 17:44:52,606 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 18:01:27,195 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 18:17:15,861 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 18:33:51,437 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 18:50:28,569 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 19:07:05,077 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 19:23:41,379 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 19:40:19,033 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 19:56:58,600 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 20:13:34,338 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 20:30:12,728 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 20:46:52,267 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 21:03:28,973 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 21:20:05,052 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 21:36:43,214 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 21:52:42,101 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 22:09:11,476 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 22:25:49,064 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 22:42:23,958 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 22:58:57,235 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 23:15:32,087 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 23:32:05,412 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-15 23:48:37,673 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 00:05:12,162 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 00:21:46,453 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 00:38:18,925 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 00:54:09,820 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 01:10:37,120 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 01:26:43,842 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 01:43:24,229 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 01:59:42,710 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 02:16:16,359 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 02:32:54,184 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 02:49:25,842 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 03:06:02,032 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 03:22:37,938 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 03:39:15,095 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 03:55:16,168 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 04:11:50,026 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 04:28:01,672 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 04:44:34,639 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 05:01:09,193 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 05:17:46,624 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 05:34:22,520 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 05:51:00,953 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 06:07:36,877 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 06:24:11,583 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 06:40:44,679 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 06:57:21,442 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 07:13:54,577 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 07:30:29,127 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 07:47:07,606 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 08:03:05,897 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 08:19:40,935 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 08:36:14,480 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 08:52:49,595 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 09:09:23,075 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 09:25:54,952 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 09:42:30,629 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 09:59:02,931 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 10:15:34,615 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 10:32:10,170 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 10:48:45,149 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 11:05:19,663 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 11:21:55,871 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 11:38:31,847 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 11:55:07,964 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 12:11:41,748 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 12:28:17,937 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 12:44:28,491 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 13:00:16,816 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 13:16:03,916 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 13:32:21,018 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 13:48:59,826 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 14:05:37,052 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 14:22:10,972 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 14:38:35,832 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 14:54:46,757 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 15:10:34,537 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 15:26:24,091 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 15:43:00,446 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 15:59:38,368 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 16:15:45,608 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 16:32:23,659 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 16:49:02,451 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 17:05:39,384 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 17:22:17,855 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 17:38:56,935 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 17:55:09,035 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 18:11:16,160 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 18:27:41,322 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 18:44:17,972 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 19:00:52,871 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 19:17:28,505 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 19:33:49,623 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 19:49:47,438 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 20:06:07,983 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 20:22:45,741 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 20:39:25,278 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 20:56:02,239 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 21:12:38,834 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 21:29:12,800 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 21:45:47,452 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 22:02:23,285 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 22:18:59,924 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 22:35:32,712 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 22:52:08,662 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 23:08:42,606 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 23:25:17,109 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 23:41:50,902 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-16 23:58:29,444 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 00:14:45,092 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 00:30:37,300 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 00:46:49,287 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 01:02:53,932 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 01:19:31,842 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 01:36:06,045 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 01:52:43,844 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 02:09:20,392 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 02:25:58,280 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 02:42:38,308 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 02:59:13,053 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 03:14:58,215 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 03:31:33,123 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 03:48:07,821 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 04:04:44,685 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 04:21:22,284 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 04:37:58,895 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 04:54:36,399 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 05:11:11,047 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 05:27:47,789 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 05:44:26,826 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 06:01:03,574 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 06:17:35,554 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 06:34:09,223 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 06:50:43,506 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 07:07:19,301 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 07:23:55,239 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 07:40:30,205 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 07:57:06,382 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 08:13:41,345 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 08:30:16,441 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 08:46:51,625 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 09:03:27,902 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 09:20:00,261 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 09:36:35,653 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 09:52:34,462 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 10:09:07,890 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 10:25:44,919 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 10:42:23,060 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 10:59:02,307 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 11:15:37,836 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 11:31:30,601 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 11:48:06,693 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 12:04:41,013 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 12:21:18,886 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 12:37:53,569 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 12:54:32,105 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 13:11:08,990 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 13:27:44,388 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 13:44:20,643 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 14:01:01,621 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 14:17:30,054 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 14:34:08,669 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 14:50:47,461 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 15:07:26,836 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 15:24:05,617 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 15:40:29,559 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 15:57:08,667 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 16:13:50,251 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 16:30:12,414 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 16:46:52,082 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 17:03:18,666 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 17:19:57,827 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 17:36:36,990 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 17:53:15,779 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 18:09:54,196 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 18:26:32,351 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 18:43:11,308 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 18:59:49,911 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 19:16:29,654 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 19:33:08,643 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 19:49:47,830 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 20:06:26,852 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 20:23:04,798 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 20:39:45,838 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 20:56:24,762 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 21:13:04,423 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 21:29:43,386 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 21:46:22,350 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 22:03:00,366 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 22:19:37,530 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 22:36:08,244 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 22:52:47,199 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 23:09:20,115 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 23:25:58,795 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 23:42:38,271 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-17 23:59:18,284 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 00:15:11,008 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 00:31:49,713 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 00:48:25,920 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 01:05:02,657 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 01:21:41,941 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 01:38:21,293 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 01:55:01,107 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 02:11:41,738 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 02:28:19,557 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 02:44:57,436 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 03:01:33,787 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 03:18:10,399 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 03:34:50,259 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 03:51:09,267 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 04:07:46,634 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 04:24:24,432 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 04:41:02,515 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 04:57:54,286 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 05:14:33,012 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 05:31:10,991 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 05:47:50,538 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 06:04:30,180 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 06:21:07,269 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 06:37:44,156 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 06:54:22,068 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 07:10:58,524 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 07:27:38,085 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 07:44:18,525 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 08:00:59,025 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 08:17:22,962 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 08:34:00,874 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 08:50:39,661 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 09:07:17,968 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 09:23:56,314 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 09:40:35,172 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 09:56:36,998 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 10:13:16,221 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 10:29:58,740 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 10:46:38,563 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 11:03:18,794 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 11:19:58,284 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 11:36:37,141 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 11:53:15,177 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 12:09:54,367 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 12:26:34,378 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 12:43:12,836 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 12:59:52,228 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 13:16:33,365 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 13:33:15,017 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 13:49:48,290 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 14:06:27,968 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 14:23:07,811 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 14:39:45,918 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 14:56:22,728 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 15:13:00,372 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 15:29:38,340 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 15:46:16,671 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 16:02:55,089 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 16:19:34,132 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 16:36:14,729 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 16:52:53,813 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 17:09:31,014 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 17:26:10,433 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 17:42:52,107 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 17:59:33,137 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 18:16:12,809 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 18:33:04,953 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 18:49:56,607 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 19:06:50,371 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 19:23:21,690 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 19:39:42,072 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 19:55:12,244 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 20:10:25,921 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip
+2024-03-18 20:25:42,800 INFO    MainThread:7276 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/onlyZhems\model.zip

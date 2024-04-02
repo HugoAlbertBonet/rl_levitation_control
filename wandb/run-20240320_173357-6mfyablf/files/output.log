@@ -1,0 +1,37 @@
+Using cuda device
+Wrapping the env in a DummyVecEnv.
+Logging to 5gdl/SAC_14
+[34m[1mwandb[39m[22m: [33mWARNING[39m When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5e+03    |
+|    ep_rew_mean     | 4.98e+03 |
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 10       |
+|    time_elapsed    | 1971     |
+|    total_timesteps | 20000    |
+| train/             |          |
+|    actor_loss      | -69.4    |
+|    critic_loss     | 0.0101   |
+|    ent_coef        | 0.000745 |
+|    ent_coef_loss   | 0.122    |
+|    learning_rate   | 0.000998 |
+|    n_updates       | 19899    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5e+03    |
+|    ep_rew_mean     | 4.98e+03 |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 10       |
+|    time_elapsed    | 3947     |
+|    total_timesteps | 40000    |
+| train/             |          |
+|    actor_loss      | -88.5    |
+|    critic_loss     | 0.103    |
+|    ent_coef        | 0.000682 |
+|    ent_coef_loss   | -0.578   |
+|    learning_rate   | 0.000996 |
+|    n_updates       | 39899    |

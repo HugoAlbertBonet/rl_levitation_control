@@ -1,0 +1,3 @@
+Using cuda device
+Wrapping the env in a DummyVecEnv.
+Logging to 5gdl/SAC_2

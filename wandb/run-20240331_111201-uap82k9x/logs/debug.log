@@ -1,0 +1,260 @@
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Configure stats pid to 5348
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-31 11:12:01,602 INFO    MainThread:5348 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240331_111201-uap82k9x\logs\debug.log
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240331_111201-uap82k9x\logs\debug-internal.log
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001B74CCAEC40>
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:init():546] calling init triggers
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:init():602] starting backend
+2024-03-31 11:12:01,603 INFO    MainThread:5348 [wandb_init.py:init():606] setting up manager
+2024-03-31 11:12:01,606 INFO    MainThread:5348 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-03-31 11:12:01,612 INFO    MainThread:5348 [wandb_init.py:init():613] backend started and connected
+2024-03-31 11:12:01,614 INFO    MainThread:5348 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-03-31 11:12:01,616 INFO    MainThread:5348 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-31 11:12:01,616 INFO    MainThread:5348 [wandb_init.py:init():701] updated telemetry
+2024-03-31 11:12:01,765 INFO    MainThread:5348 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-03-31 11:12:02,190 INFO    MainThread:5348 [wandb_run.py:_on_init():2133] communicating current version
+2024-03-31 11:12:02,318 INFO    MainThread:5348 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-31 11:12:02,319 INFO    MainThread:5348 [wandb_init.py:init():789] starting run threads in backend
+2024-03-31 11:12:02,725 INFO    MainThread:5348 [wandb_run.py:_console_start():2114] atexit reg
+2024-03-31 11:12:02,726 INFO    MainThread:5348 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-03-31 11:12:02,726 INFO    MainThread:5348 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-03-31 11:12:02,726 INFO    MainThread:5348 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-03-31 11:12:02,727 INFO    MainThread:5348 [wandb_init.py:init():831] run started, returning control to user process
+2024-03-31 11:12:02,727 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:02,727 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-31 11:12:02,736 INFO    MainThread:5348 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-31 11:12:09,723 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:09,723 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-31 11:12:09,748 INFO    MainThread:5348 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-31 11:12:10,909 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:10,909 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-31 11:12:10,917 INFO    MainThread:5348 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-31 11:12:10,973 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:10,973 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-31 11:12:11,000 INFO    MainThread:5348 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-31 11:12:11,004 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:11,004 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-31 11:12:11,015 INFO    MainThread:5348 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-31 11:12:13,934 INFO    MainThread:5348 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 5gdl/SAC_56, True
+2024-03-31 11:12:14,040 INFO    MainThread:5348 [wandb_watch.py:watch():51] Watching
+2024-03-31 11:12:14,041 INFO    MainThread:5348 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [64, 64], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1711876331018689800, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000001B74CB1C4C0>', 'tensorboard_log': '5gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n  0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': '[[ 78.757      78.757      78.757      78.757     143.21817   143.38182\n  143.21817   143.38182    78.7596     78.7596     78.7596     78.7596\n  143.21815   143.38184   143.21815   143.38184   -24.553425   35.32315\n    5.4933596 -45.          0.          0.          0.          0.\n    0.          0.       ]]', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 0.8830001, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 1344425, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001B77540B220>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 70.64  70.64  70.64  70.64 136.8  136.8  136.8  136.8   70.64  70.64\n  70.64  70.64 136.8  136.8  136.8  136.8  -45.   -45.   -45.   -45.\n -45.   -45.   -45.   -45.   -45.   -45.  ], [ 84.14  84.14  84.14  84.14 148.8  148.8  148.8  148.8   84.14  84.14\n  84.14  84.14 148.8  148.8  148.8  148.8   45.    45.    45.    45.\n  45.    45.    45.    45.    45.    45.  ], (26,), float32)', 'action_space': 'Box(-100.0, 100.0, (10,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x000001B74DAC87F0>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -10.0, 'log_ent_coef': "tensor([-5.6486], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.0008830000999999999\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000001B74CB1C4C0>', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=26, out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=64, out_features=10, bias=True)\n    (log_std): Linear(in_features=64, out_features=10, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=26, out_features=64, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=64, out_features=10, bias=True)\n  (log_std): Linear(in_features=64, out_features=10, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001B74DA6D3A0>'}
+2024-03-31 11:23:46,343 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:32:56,003 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:38:56,551 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:43:51,524 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:48:21,998 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:53:03,438 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 11:56:57,899 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:01:04,997 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:05:06,777 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:09:13,887 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:13:21,902 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:17:16,722 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:21:00,888 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:24:51,736 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:28:32,156 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:32:22,065 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:36:22,927 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:40:12,225 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:43:55,103 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:47:33,366 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:51:32,698 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 12:55:58,213 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:00:29,629 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:05:30,292 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:10:44,487 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:15:58,305 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:21:07,403 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:26:12,651 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:31:06,931 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:35:59,604 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:41:12,288 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:46:26,552 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:51:40,642 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 13:56:57,451 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:02:15,625 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:07:21,950 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:12:12,519 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:16:39,624 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:21:10,153 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:25:50,591 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:30:28,785 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:34:56,268 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:39:22,426 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:43:55,369 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:48:21,817 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:52:51,274 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 14:57:17,657 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:01:56,131 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:06:23,958 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:11:09,695 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:15:53,939 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:20:47,703 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:25:43,813 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:30:40,345 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:35:49,154 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:41:00,764 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:46:10,648 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:51:17,151 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 15:56:00,892 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:00:50,874 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:06:08,566 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:11:09,533 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:15:53,274 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:20:53,688 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:25:57,205 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:30:57,158 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:35:42,473 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:40:29,377 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:45:16,491 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:50:03,418 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:54:57,423 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 16:59:47,549 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:04:37,953 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:09:24,025 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:14:05,266 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:18:43,959 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:23:24,258 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:28:00,761 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:32:26,091 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:36:48,798 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:41:16,395 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:45:48,212 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:50:18,590 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:54:51,925 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 17:59:20,083 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:03:45,258 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:08:06,417 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:12:26,393 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:16:40,655 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:21:02,930 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:25:25,224 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:29:40,365 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:33:52,060 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:37:53,296 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:42:05,282 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:46:23,277 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:50:47,822 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 18:55:22,573 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:00:07,110 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:04:49,431 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:09:35,640 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:14:38,490 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:19:40,207 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:24:35,302 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:29:10,487 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:33:36,598 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:38:14,301 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:43:06,669 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:47:55,924 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:52:12,293 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 19:56:40,571 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:01:15,090 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:06:21,538 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:11:58,240 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:16:43,448 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:22:51,820 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:28:33,419 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:34:03,688 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:39:24,269 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:45:13,857 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:50:36,151 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 20:55:47,142 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:01:19,612 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:06:46,216 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:11:45,894 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:17:11,183 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:22:28,729 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:27:36,450 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:32:59,431 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:38:04,562 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:43:02,799 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:48:10,892 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:53:19,171 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 21:58:30,757 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:03:42,408 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:08:36,505 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:13:50,981 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:19:10,143 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:24:23,119 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:29:39,493 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:34:53,383 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:39:52,115 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:45:13,450 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:50:45,455 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 22:56:23,768 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:02:14,305 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:07:59,207 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:13:57,648 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:19:38,787 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:24:45,309 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:29:57,734 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:35:03,459 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:40:16,398 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:45:38,385 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:50:41,699 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-03-31 23:55:46,730 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:00:52,774 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:06:01,604 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:11:08,456 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:16:11,105 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:21:12,332 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:26:20,797 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:31:26,132 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:36:22,415 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:41:12,105 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:45:56,757 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:50:50,413 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 00:55:28,427 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:01:08,834 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:06:29,485 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:12:00,256 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:17:42,135 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:23:16,544 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:28:56,018 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:34:28,288 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:39:51,066 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:45:00,822 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:50:22,268 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 01:55:52,718 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:01:07,638 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:06:21,114 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:11:34,258 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:16:44,981 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:21:46,497 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:27:01,674 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:32:07,185 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:37:08,285 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:42:01,530 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:46:58,204 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:52:14,746 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 02:57:31,780 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:03:01,073 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:08:20,801 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:13:41,684 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:18:58,910 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:24:18,134 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:29:39,467 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:35:08,571 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:40:14,337 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:45:21,428 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:50:29,300 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 03:55:18,567 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:00:12,386 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:05:14,641 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:10:25,694 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:15:41,732 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:20:44,243 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:25:42,666 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:30:34,290 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:35:56,783 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:35:56,819 INFO    MainThread:5348 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYcrash-newreward\model.zip
+2024-04-01 04:35:56,824 INFO    MainThread:5348 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-01 04:35:56,824 INFO    MainThread:5348 [wandb_init.py:_pause_backend():417] pausing backend

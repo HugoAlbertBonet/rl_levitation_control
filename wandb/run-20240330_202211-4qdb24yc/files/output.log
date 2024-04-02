@@ -1,0 +1,21 @@
+Using cuda device
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a DummyVecEnv.
+Logging to 5gdl/SAC_51
+Eval num_timesteps=10000, episode_reward=-493899946.05 +/- 0.00
+Episode length: 5000.00 +/- 0.00
+----------------------------------
+| eval/              |           |
+|    mean_ep_length  | 5e+03     |
+|    mean_reward     | -4.94e+08 |
+| time/              |           |
+|    total_timesteps | 10000     |
+| train/             |           |
+|    actor_loss      | 3.78e+06  |
+|    critic_loss     | 1.08e+08  |
+|    ent_coef        | 134       |
+|    ent_coef_loss   | -72.9     |
+|    learning_rate   | 0.000999  |
+|    n_updates       | 1354324   |
+----------------------------------
+New best mean reward!

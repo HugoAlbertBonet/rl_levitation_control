@@ -1,0 +1,403 @@
+2024-03-27 15:30:26,103 INFO    StreamThr :16136 [internal.py:wandb_internal():87] W&B internal server running at pid: 16136, started at: 2024-03-27 15:30:26.103795
+2024-03-27 15:30:26,105 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status
+2024-03-27 15:30:26,112 INFO    WriterThread:16136 [datastore.py:open_for_write():85] open: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\run-ltzajbbk.wandb
+2024-03-27 15:30:26,113 DEBUG   SenderThread:16136 [sender.py:send():336] send: header
+2024-03-27 15:30:26,258 DEBUG   SenderThread:16136 [sender.py:send():336] send: run
+2024-03-27 15:30:26,716 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: check_version
+2024-03-27 15:30:26,717 INFO    SenderThread:16136 [dir_watcher.py:__init__():219] watching files in: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files
+2024-03-27 15:30:26,717 INFO    SenderThread:16136 [sender.py:_start_run_threads():1078] run started: ltzajbbk with start time 1711549826.105796
+2024-03-27 15:30:26,717 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: summary_record
+2024-03-27 15:30:26,718 INFO    SenderThread:16136 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-03-27 15:30:26,718 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: check_version
+2024-03-27 15:30:26,867 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: run_start
+2024-03-27 15:30:26,901 DEBUG   HandlerThread:16136 [system_info.py:__init__():31] System info init
+2024-03-27 15:30:26,901 DEBUG   HandlerThread:16136 [system_info.py:__init__():46] System info init done
+2024-03-27 15:30:26,901 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:30:26,902 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:30:26,902 INFO    HandlerThread:16136 [system_monitor.py:probe():204] Collecting system info
+2024-03-27 15:30:26,907 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:30:26,907 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:30:26,907 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:30:26,915 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:30:26,920 DEBUG   HandlerThread:16136 [system_info.py:probe():195] Probing system
+2024-03-27 15:30:26,926 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:30:26,932 DEBUG   HandlerThread:16136 [system_info.py:_probe_git():180] Probing git
+2024-03-27 15:30:27,197 DEBUG   HandlerThread:16136 [system_info.py:_probe_git():188] Probing git done
+2024-03-27 15:30:27,197 DEBUG   HandlerThread:16136 [system_info.py:probe():240] Probing system done
+2024-03-27 15:30:27,197 DEBUG   HandlerThread:16136 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.13', 'heartbeatAt': '2024-03-27T14:30:26.920964', 'startedAt': '2024-03-27T14:30:26.091793', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:HugoAlbertBonet/rl_levitation_control.git', 'commit': '6102cb36958f88c4dee1433549d837373b111227'}, 'email': 'hugo.albert.16@gmail.com', 'root': 'C:/Users/hugoa/H9/RL/GitHub Vrain/rl_levitation_control/rl_levitation_control', 'host': 'DESKTOP-7D88GMF', 'username': 'hugoa', 'executable': 'C:\\Users\\hugoa\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 952.5908164978027, 'used': 576.911205291748}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.856746673583984}}
+2024-03-27 15:30:27,197 INFO    HandlerThread:16136 [system_monitor.py:probe():214] Finished collecting system info
+2024-03-27 15:30:27,197 INFO    HandlerThread:16136 [system_monitor.py:probe():217] Publishing system info
+2024-03-27 15:30:27,197 DEBUG   HandlerThread:16136 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-03-27 15:30:27,198 DEBUG   HandlerThread:16136 [system_info.py:_save_pip():67] Saving pip packages done
+2024-03-27 15:30:27,199 INFO    HandlerThread:16136 [system_monitor.py:probe():219] Finished publishing system info
+2024-03-27 15:30:27,209 DEBUG   SenderThread:16136 [sender.py:send():336] send: files
+2024-03-27 15:30:27,209 INFO    SenderThread:16136 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2024-03-27 15:30:27,223 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:30:27,223 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:30:27,224 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:30:27,224 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:30:27,225 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:30:27,225 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:30:27,225 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:30:27,226 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:30:27,233 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:30:27,234 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:30:27,283 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:30:27,283 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:30:27,283 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:30:27,484 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:30:27,484 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:30:27,719 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\requirements.txt
+2024-03-27 15:30:27,720 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-summary.json
+2024-03-27 15:30:27,720 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-metadata.json
+2024-03-27 15:30:28,786 INFO    wandb-upload_0:16136 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpr680wjyqwandb\6lvflldc-wandb-metadata.json
+2024-03-27 15:30:30,454 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:30:30,454 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:30:30,454 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:30:30,455 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:30:30,460 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:30:30,461 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:30:30,461 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:30:30,473 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:30:30,480 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:30:31,488 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:36,497 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:37,273 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:30:37,273 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:30:37,273 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:30:37,274 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:30:37,281 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:30:37,281 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:30:37,281 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:30:37,282 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:30:37,326 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:30:37,326 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:30:37,327 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:30:37,327 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:30:37,327 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:30:37,327 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:30:37,327 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:30:37,327 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:30:37,333 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:30:37,333 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:30:37,334 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:30:37,344 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:30:37,370 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:30:37,728 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log
+2024-03-27 15:30:37,887 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:30:38,018 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:30:38,350 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:30:38,350 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:30:38,350 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:30:38,350 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:30:38,350 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:30:38,350 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:30:38,359 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:30:38,360 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:30:38,402 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:30:38,403 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:30:38,403 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:30:38,403 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:30:39,729 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log
+2024-03-27 15:30:42,221 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:30:42,221 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:30:42,508 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:47,512 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:52,513 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:57,228 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:30:57,229 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:30:57,554 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:30:58,747 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\config.yaml
+2024-03-27 15:31:02,781 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:07,782 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:12,227 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:31:12,228 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:31:13,480 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:18,483 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:23,485 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:27,216 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:31:27,217 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:31:28,509 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:33,510 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:38,513 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:42,229 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:31:42,230 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:31:44,444 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:49,446 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:54,449 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:31:57,225 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:31:57,226 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:31:59,532 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:04,535 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:09,537 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:12,220 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:32:12,221 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:32:15,507 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:20,510 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:25,512 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:27,226 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:32:27,227 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:32:31,459 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:35,399 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:32:35,399 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:32:35,400 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:32:35,400 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:32:35,407 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:32:35,409 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:32:35,409 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:32:35,409 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:32:35,409 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:32:35,409 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:32:35,409 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:32:35,409 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:32:35,409 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:32:35,409 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:32:35,410 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:32:37,411 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:42,224 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:32:42,225 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:32:42,472 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:47,474 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:51,928 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:32:51,928 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:32:51,928 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:32:51,929 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:32:51,934 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:32:51,935 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:32:51,935 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:32:51,935 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:32:51,943 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:32:51,944 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:32:52,935 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:32:54,978 INFO    HandlerThread:16136 [handler.py:handle_tbrecord():747] handling tbrecord: tbrecord {
+  log_dir: "5gdl/SAC_33"
+  save: true
+}
+control {
+  relay_id: "fe6cdde309304de6be96ca2c74b12891"
+}
+_info {
+  stream_id: "ltzajbbk"
+}
+
+2024-03-27 15:32:54,978 DEBUG   HandlerThread:16136 [config_util.py:dict_from_config_file():103] no default config file found in config-defaults.yaml
+2024-03-27 15:32:55,120 DEBUG   SenderThread:16136 [sender.py:send():336] send: tbrecord
+2024-03-27 15:32:55,121 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:32:55,121 DEBUG   SenderThread:16136 [sender.py:send():336] send: config
+2024-03-27 15:32:55,699 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:32:55,699 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:32:55,699 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:32:55,699 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:32:55,706 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:32:55,707 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:32:55,708 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:32:55,708 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:32:55,758 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:32:55,759 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:32:55,759 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:32:55,759 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:32:57,224 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:32:57,225 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:32:57,799 DEBUG   SenderThread:16136 [sender.py:send():336] send: files
+2024-03-27 15:32:57,799 INFO    SenderThread:16136 [sender.py:_save_file():1332] saving file events.out.tfevents.1711549974.DESKTOP-7D88GMF.15724.0 with policy live
+2024-03-27 15:32:57,862 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log
+2024-03-27 15:32:57,863 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\events.out.tfevents.1711549974.DESKTOP-7D88GMF.15724.0
+2024-03-27 15:32:58,348 INFO    wandb-upload_0:16136 [upload_job.py:push():138] Uploaded file C:\Users\hugoa\AppData\Local\Temp\tmpr680wjyqwandb\kq3dzpba-events.out.tfevents.1711549974.DESKTOP-7D88GMF.15724.0
+2024-03-27 15:32:58,801 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:03,806 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:04,868 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\config.yaml
+2024-03-27 15:33:09,041 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:12,230 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:33:12,231 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:33:14,524 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:19,528 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:24,531 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:27,243 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:33:27,243 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:33:30,530 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:35,532 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:40,534 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:42,234 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:33:42,234 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:33:45,554 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:50,557 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:55,559 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:33:57,241 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:33:57,242 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:34:01,471 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:06,474 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:11,477 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:12,236 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:34:12,237 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:34:16,519 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:21,521 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:26,523 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:27,236 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:34:27,236 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:34:32,448 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:37,450 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:42,242 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-27 15:34:42,242 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: stop_status
+2024-03-27 15:34:42,543 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:47,546 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:52,548 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:34:54,927 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:34:54,927 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:34:54,927 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:34:54,928 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:34:54,933 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:34:54,934 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:34:54,935 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:34:54,945 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:34:54,946 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: pause
+2024-03-27 15:34:54,946 INFO    HandlerThread:16136 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-03-27 15:34:54,946 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:34:54,955 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:34:54,955 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:34:54,956 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:34:54,956 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:34:54,956 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:34:54,957 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:34:55,006 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:34:55,006 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:34:55,006 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:34:55,007 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:34:57,100 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: resume
+2024-03-27 15:34:57,100 INFO    HandlerThread:16136 [handler.py:handle_request_resume():707] starting system metrics thread or process
+2024-03-27 15:34:57,100 INFO    HandlerThread:16136 [system_monitor.py:start():183] Starting system monitor
+2024-03-27 15:34:57,101 INFO    SystemMonitor:16136 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2024-03-27 15:34:57,107 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started cpu monitoring
+2024-03-27 15:34:57,107 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:34:57,107 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started disk monitoring
+2024-03-27 15:34:57,108 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started gpu monitoring
+2024-03-27 15:34:57,118 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started memory monitoring
+2024-03-27 15:34:57,124 DEBUG   SenderThread:16136 [sender.py:send():336] send: telemetry
+2024-03-27 15:34:57,129 DEBUG   SenderThread:16136 [sender.py:send():336] send: exit
+2024-03-27 15:34:57,129 INFO    SystemMonitor:16136 [interfaces.py:start():187] Started network monitoring
+2024-03-27 15:34:57,129 INFO    SenderThread:16136 [sender.py:send_exit():559] handling exit code: 0
+2024-03-27 15:34:57,130 INFO    SenderThread:16136 [sender.py:send_exit():561] handling runtime: 12
+2024-03-27 15:34:57,130 INFO    SenderThread:16136 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-03-27 15:34:57,131 INFO    SenderThread:16136 [sender.py:send_exit():567] send defer
+2024-03-27 15:34:57,131 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:34:57,131 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-27 15:34:57,131 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:34:57,132 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 0
+2024-03-27 15:34:57,132 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 1
+2024-03-27 15:34:57,132 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:34:57,132 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-27 15:34:57,132 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:34:57,132 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 1
+2024-03-27 15:34:57,132 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 2
+2024-03-27 15:34:57,132 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:34:57,132 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-27 15:34:57,132 INFO    HandlerThread:16136 [system_monitor.py:finish():193] Stopping system monitor
+2024-03-27 15:34:57,132 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2024-03-27 15:34:57,133 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2024-03-27 15:34:57,133 DEBUG   SystemMonitor:16136 [system_monitor.py:_start():172] Publishing last batch of metrics
+2024-03-27 15:34:57,141 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined cpu monitor
+2024-03-27 15:34:57,141 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined disk monitor
+2024-03-27 15:34:57,186 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined gpu monitor
+2024-03-27 15:34:57,186 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined memory monitor
+2024-03-27 15:34:57,186 INFO    HandlerThread:16136 [interfaces.py:finish():199] Joined network monitor
+2024-03-27 15:34:57,187 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:34:57,187 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 2
+2024-03-27 15:34:57,187 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 3
+2024-03-27 15:34:57,187 DEBUG   SenderThread:16136 [sender.py:send():336] send: stats
+2024-03-27 15:34:57,187 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:34:57,187 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-27 15:34:57,188 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:34:57,188 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 3
+2024-03-27 15:34:57,188 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 4
+2024-03-27 15:34:57,188 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:34:57,188 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-27 15:34:57,992 INFO    Thread-17 :16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-summary.json
+2024-03-27 15:35:03,036 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-27 15:35:03,036 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:35:03,036 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,037 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 4
+2024-03-27 15:35:03,037 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 5
+2024-03-27 15:35:03,037 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: poll_exit
+2024-03-27 15:35:03,037 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:03,037 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-27 15:35:03,038 DEBUG   SenderThread:16136 [sender.py:send():336] send: summary
+2024-03-27 15:35:03,038 INFO    SenderThread:16136 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2024-03-27 15:35:03,039 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,039 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 5
+2024-03-27 15:35:03,039 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 6
+2024-03-27 15:35:03,039 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:03,039 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-27 15:35:03,039 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,039 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 6
+2024-03-27 15:35:03,041 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: status_report
+2024-03-27 15:35:03,117 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-27 15:35:03,326 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 7
+2024-03-27 15:35:03,326 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:03,326 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-27 15:35:03,326 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,326 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 7
+2024-03-27 15:35:03,696 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 8
+2024-03-27 15:35:03,696 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:03,697 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-27 15:35:03,697 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,697 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 8
+2024-03-27 15:35:03,697 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 9
+2024-03-27 15:35:03,697 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:03,698 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-27 15:35:03,698 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:03,698 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 9
+2024-03-27 15:35:03,698 INFO    SenderThread:16136 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-03-27 15:35:03,995 INFO    SenderThread:16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\config.yaml
+2024-03-27 15:35:03,995 INFO    SenderThread:16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log
+2024-03-27 15:35:03,995 INFO    SenderThread:16136 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-summary.json
+2024-03-27 15:35:03,995 INFO    SenderThread:16136 [dir_watcher.py:finish():395] scan: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files
+2024-03-27 15:35:03,996 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\config.yaml config.yaml
+2024-03-27 15:35:03,996 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\events.out.tfevents.1711549974.DESKTOP-7D88GMF.15724.0 events.out.tfevents.1711549974.DESKTOP-7D88GMF.15724.0
+2024-03-27 15:35:03,998 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log output.log
+2024-03-27 15:35:03,999 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\requirements.txt requirements.txt
+2024-03-27 15:35:03,999 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-metadata.json wandb-metadata.json
+2024-03-27 15:35:03,999 INFO    SenderThread:16136 [dir_watcher.py:finish():409] scan save: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-summary.json wandb-summary.json
+2024-03-27 15:35:04,004 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 10
+2024-03-27 15:35:04,004 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:04,004 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-27 15:35:04,005 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:04,006 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 10
+2024-03-27 15:35:04,007 INFO    SenderThread:16136 [file_pusher.py:finish():164] shutting down file pusher
+2024-03-27 15:35:04,473 INFO    wandb-upload_3:16136 [upload_job.py:push():138] Uploaded file c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\wandb-summary.json
+2024-03-27 15:35:04,602 INFO    wandb-upload_1:16136 [upload_job.py:push():138] Uploaded file c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\output.log
+2024-03-27 15:35:04,610 INFO    wandb-upload_2:16136 [upload_job.py:push():138] Uploaded file c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\requirements.txt
+2024-03-27 15:35:04,624 INFO    wandb-upload_0:16136 [upload_job.py:push():138] Uploaded file c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\files\config.yaml
+2024-03-27 15:35:04,826 INFO    Thread-16 :16136 [sender.py:transition_state():587] send defer: 11
+2024-03-27 15:35:04,826 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:04,826 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-27 15:35:04,826 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:04,826 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 11
+2024-03-27 15:35:04,826 INFO    SenderThread:16136 [file_pusher.py:join():169] waiting for file pusher
+2024-03-27 15:35:04,826 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 12
+2024-03-27 15:35:04,827 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:04,827 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-27 15:35:04,827 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:04,827 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 12
+2024-03-27 15:35:05,317 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 13
+2024-03-27 15:35:05,317 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:05,318 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-27 15:35:05,318 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:05,318 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 13
+2024-03-27 15:35:05,318 INFO    SenderThread:16136 [sender.py:transition_state():587] send defer: 14
+2024-03-27 15:35:05,318 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: defer
+2024-03-27 15:35:05,318 INFO    HandlerThread:16136 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-27 15:35:05,319 DEBUG   SenderThread:16136 [sender.py:send():336] send: final
+2024-03-27 15:35:05,319 DEBUG   SenderThread:16136 [sender.py:send():336] send: footer
+2024-03-27 15:35:05,319 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: defer
+2024-03-27 15:35:05,319 INFO    SenderThread:16136 [sender.py:send_request_defer():583] handle sender defer: 14
+2024-03-27 15:35:05,320 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-27 15:35:05,320 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: poll_exit
+2024-03-27 15:35:05,320 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: server_info
+2024-03-27 15:35:05,320 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-27 15:35:05,320 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-27 15:35:05,321 DEBUG   SenderThread:16136 [sender.py:send_request():363] send_request: server_info
+2024-03-27 15:35:05,740 DEBUG   HandlerThread:16136 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-27 15:35:05,740 INFO    HandlerThread:16136 [handler.py:finish():842] shutting down handler
+2024-03-27 15:35:06,321 INFO    WriterThread:16136 [datastore.py:close():298] close: c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240327_153026-ltzajbbk\run-ltzajbbk.wandb
+2024-03-27 15:35:06,740 INFO    SenderThread:16136 [sender.py:finish():1504] shutting down sender
+2024-03-27 15:35:06,740 INFO    SenderThread:16136 [file_pusher.py:finish():164] shutting down file pusher
+2024-03-27 15:35:06,740 INFO    SenderThread:16136 [file_pusher.py:join():169] waiting for file pusher

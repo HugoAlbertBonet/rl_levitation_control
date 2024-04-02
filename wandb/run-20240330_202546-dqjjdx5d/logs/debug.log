@@ -1,0 +1,251 @@
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Configure stats pid to 15272
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-30 20:25:46,449 INFO    MainThread:15272 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-30 20:25:46,450 INFO    MainThread:15272 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240330_202546-dqjjdx5d\logs\debug.log
+2024-03-30 20:25:46,450 INFO    MainThread:15272 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240330_202546-dqjjdx5d\logs\debug-internal.log
+2024-03-30 20:25:46,450 INFO    MainThread:15272 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000151A8118CD0>
+2024-03-30 20:25:46,451 INFO    MainThread:15272 [wandb_init.py:init():546] calling init triggers
+2024-03-30 20:25:46,451 INFO    MainThread:15272 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-03-30 20:25:46,451 INFO    MainThread:15272 [wandb_init.py:init():602] starting backend
+2024-03-30 20:25:46,451 INFO    MainThread:15272 [wandb_init.py:init():606] setting up manager
+2024-03-30 20:25:46,454 INFO    MainThread:15272 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-03-30 20:25:46,457 INFO    MainThread:15272 [wandb_init.py:init():613] backend started and connected
+2024-03-30 20:25:46,460 INFO    MainThread:15272 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-03-30 20:25:46,461 INFO    MainThread:15272 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-30 20:25:46,461 INFO    MainThread:15272 [wandb_init.py:init():701] updated telemetry
+2024-03-30 20:25:46,615 INFO    MainThread:15272 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-03-30 20:25:47,088 INFO    MainThread:15272 [wandb_run.py:_on_init():2133] communicating current version
+2024-03-30 20:25:47,240 INFO    MainThread:15272 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-30 20:25:47,240 INFO    MainThread:15272 [wandb_init.py:init():789] starting run threads in backend
+2024-03-30 20:25:47,616 INFO    MainThread:15272 [wandb_run.py:_console_start():2114] atexit reg
+2024-03-30 20:25:47,616 INFO    MainThread:15272 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-03-30 20:25:47,617 INFO    MainThread:15272 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-03-30 20:25:47,617 INFO    MainThread:15272 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-03-30 20:25:47,617 INFO    MainThread:15272 [wandb_init.py:init():831] run started, returning control to user process
+2024-03-30 20:25:47,618 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-30 20:25:47,618 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-30 20:25:47,624 INFO    MainThread:15272 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-30 20:25:54,494 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-30 20:25:54,495 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-30 20:25:54,503 INFO    MainThread:15272 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-30 20:25:55,612 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-30 20:25:55,612 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-30 20:25:55,622 INFO    MainThread:15272 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-30 20:25:55,685 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-30 20:25:55,685 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-30 20:25:55,695 INFO    MainThread:15272 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-30 20:25:55,698 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-30 20:25:55,698 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
+2024-03-30 20:25:55,707 INFO    MainThread:15272 [wandb_init.py:_resume_backend():422] resuming backend
+2024-03-30 20:25:59,055 INFO    MainThread:15272 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 5gdl/SAC_52, True
+2024-03-30 20:25:59,116 INFO    MainThread:15272 [wandb_watch.py:watch():51] Watching
+2024-03-30 20:25:59,118 INFO    MainThread:15272 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [64, 64], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1711826755710666200, 'learning_rate': '<function linear_schedule.<locals>.func at 0x00000151BB823040>', 'tensorboard_log': '5gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n  0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': '[[ 78.757      78.757      78.757      78.757     143.21817   143.38182\n  143.21817   143.38182    78.7596     78.7596     78.7596     78.7596\n  143.21815   143.38184   143.21815   143.38184   -24.553425   35.32315\n    5.4933596 -45.          0.          0.          0.          0.\n    0.          0.       ]]', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 0.8830001, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 1344425, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x00000151B9FE7A90>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 70.64  70.64  70.64  70.64 136.8  136.8  136.8  136.8   70.64  70.64\n  70.64  70.64 136.8  136.8  136.8  136.8  -45.   -45.   -45.   -45.\n -45.   -45.   -45.   -45.   -45.   -45.  ], [ 84.14  84.14  84.14  84.14 148.8  148.8  148.8  148.8   84.14  84.14\n  84.14  84.14 148.8  148.8  148.8  148.8   45.    45.    45.    45.\n  45.    45.    45.    45.    45.    45.  ], (26,), float32)', 'action_space': 'Box(-100.0, 100.0, (10,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x00000151D0035460>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -10.0, 'log_ent_coef': "tensor([-5.6486], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 0.0008830000999999999\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x00000151BB823040>', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=26, out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=64, out_features=10, bias=True)\n    (log_std): Linear(in_features=64, out_features=10, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=26, out_features=64, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=64, out_features=10, bias=True)\n  (log_std): Linear(in_features=64, out_features=10, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x00000151A8192D60>'}
+2024-03-30 20:31:16,926 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 20:36:30,176 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 20:41:49,677 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 20:47:06,876 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 20:52:25,157 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 20:57:25,624 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:02:24,817 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:07:25,027 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:12:25,505 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:17:24,064 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:22:21,488 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:27:19,162 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:32:20,536 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:37:09,078 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:41:59,147 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:46:37,406 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:51:12,462 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 21:55:51,490 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:00:37,470 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:05:27,042 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:10:17,812 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:15:10,203 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:20:01,437 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:24:55,365 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:29:49,697 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:34:42,891 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:39:35,538 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:44:36,753 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:49:26,269 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:54:14,199 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 22:58:58,441 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:02:55,039 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:06:52,920 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:10:43,996 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:14:34,957 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:18:27,746 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:22:21,909 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:26:18,258 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:30:14,630 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:34:11,355 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:38:07,222 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:42:05,303 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:46:02,615 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:50:00,991 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:53:58,474 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-30 23:57:55,195 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:01:54,208 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:05:49,802 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:09:45,164 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:13:42,243 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:17:40,157 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:21:37,023 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:25:34,810 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:29:31,830 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:33:28,235 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:37:23,663 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:41:19,872 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:45:15,026 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:49:12,431 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:53:08,593 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 00:57:03,006 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:00:58,888 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:04:55,433 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:08:50,935 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:12:47,882 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:16:42,775 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:20:38,119 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:24:34,717 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:28:30,987 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:32:27,980 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:36:26,522 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:40:23,368 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:44:19,605 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:48:15,651 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:52:12,325 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 01:56:10,666 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:00:09,460 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:04:07,125 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:08:03,901 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:12:00,170 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:15:55,657 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:19:51,760 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:23:48,999 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:27:47,370 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:31:46,358 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:35:42,616 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:39:36,845 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:43:34,398 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:47:32,808 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:51:29,821 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:55:26,047 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 03:59:22,797 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:03:19,921 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:07:16,803 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:11:16,376 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:15:17,269 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:19:17,138 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:23:16,849 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:27:15,784 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:31:25,457 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:35:26,733 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:39:24,259 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:43:24,451 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:47:21,060 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:51:18,797 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:55:16,281 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 04:59:14,397 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:03:10,664 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:07:06,426 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:11:01,881 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:14:56,335 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:18:52,106 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:22:47,305 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:26:43,034 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:30:37,369 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:34:34,158 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:38:30,241 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:42:24,582 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:46:19,374 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:50:15,018 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:54:12,627 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 05:58:09,152 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:02:02,892 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:05:59,416 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:09:57,367 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:13:54,406 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:17:52,873 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:21:51,579 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:25:48,760 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:29:44,662 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:33:39,528 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:37:35,655 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:41:28,324 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:45:22,400 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:49:16,322 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:53:12,571 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 06:57:08,607 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:01:04,364 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:04:59,204 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:08:56,751 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:12:52,022 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:16:46,841 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:20:41,179 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:24:35,479 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:28:28,906 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:32:21,650 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:36:16,016 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:40:12,462 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:44:09,557 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:48:06,807 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:52:04,113 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:56:01,190 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 07:59:59,261 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:03:57,361 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:07:53,773 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:11:50,035 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:15:43,251 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:19:37,096 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:23:33,401 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:27:29,199 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:31:23,771 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:35:16,208 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:39:09,088 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:43:01,692 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:46:55,739 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:50:47,711 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:54:40,767 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 08:58:31,671 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:02:24,956 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:06:18,035 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:10:09,956 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:14:04,185 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:17:56,800 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:21:50,211 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:25:43,646 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:29:35,786 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:33:29,999 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:37:24,215 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:41:16,963 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:45:07,465 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:48:59,099 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:52:52,427 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 09:56:45,875 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:00:40,092 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:04:35,534 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:08:30,652 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:12:24,502 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:16:18,545 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:20:11,599 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:24:05,256 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:28:00,866 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:31:56,462 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:35:52,580 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:39:49,099 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:43:47,941 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:47:45,951 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:51:44,188 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:55:42,780 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 10:59:39,736 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 11:03:37,293 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 11:07:34,665 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 11:11:36,606 INFO    MainThread:15272 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYnotouch-extra\model.zip
+2024-03-31 11:12:18,326 INFO    MainThread:15272 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-31 11:12:18,326 INFO    MainThread:15272 [wandb_init.py:_pause_backend():417] pausing backend
