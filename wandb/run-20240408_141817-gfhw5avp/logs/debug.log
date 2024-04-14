@@ -1,0 +1,141 @@
+2024-04-08 14:18:17,856 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Configure stats pid to 24424
+2024-04-08 14:18:17,856 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hugoa\.config\wandb\settings
+2024-04-08 14:18:17,856 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Loading settings from c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\settings
+2024-04-08 14:18:17,856 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-08 14:18:17,856 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-08 14:18:17,857 INFO    MainThread:24424 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-08 14:18:17,857 INFO    MainThread:24424 [wandb_init.py:_log_setup():506] Logging user logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240408_141817-gfhw5avp\logs\debug.log
+2024-04-08 14:18:17,857 INFO    MainThread:24424 [wandb_init.py:_log_setup():507] Logging internal logs to c:\Users\hugoa\H9\RL\GitHub Vrain\rl_levitation_control\rl_levitation_control\wandb\run-20240408_141817-gfhw5avp\logs\debug-internal.log
+2024-04-08 14:18:17,858 INFO    MainThread:24424 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001927C6A1F10>
+2024-04-08 14:18:17,858 INFO    MainThread:24424 [wandb_init.py:init():546] calling init triggers
+2024-04-08 14:18:17,858 INFO    MainThread:24424 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2024-04-08 14:18:17,858 INFO    MainThread:24424 [wandb_init.py:init():602] starting backend
+2024-04-08 14:18:17,858 INFO    MainThread:24424 [wandb_init.py:init():606] setting up manager
+2024-04-08 14:18:17,863 INFO    MainThread:24424 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-04-08 14:18:17,870 INFO    MainThread:24424 [wandb_init.py:init():613] backend started and connected
+2024-04-08 14:18:17,873 INFO    MainThread:24424 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2024-04-08 14:18:17,874 INFO    MainThread:24424 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-08 14:18:17,874 INFO    MainThread:24424 [wandb_init.py:init():701] updated telemetry
+2024-04-08 14:18:18,063 INFO    MainThread:24424 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2024-04-08 14:18:18,553 INFO    MainThread:24424 [wandb_run.py:_on_init():2133] communicating current version
+2024-04-08 14:18:18,631 INFO    MainThread:24424 [wandb_run.py:_on_init():2142] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-08 14:18:18,632 INFO    MainThread:24424 [wandb_init.py:init():789] starting run threads in backend
+2024-04-08 14:18:19,114 INFO    MainThread:24424 [wandb_run.py:_console_start():2114] atexit reg
+2024-04-08 14:18:19,114 INFO    MainThread:24424 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-04-08 14:18:19,114 INFO    MainThread:24424 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-04-08 14:18:19,116 INFO    MainThread:24424 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-04-08 14:18:19,116 INFO    MainThread:24424 [wandb_init.py:init():831] run started, returning control to user process
+2024-04-08 14:18:19,117 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-08 14:18:19,117 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
+2024-04-08 14:18:19,125 INFO    MainThread:24424 [wandb_init.py:_resume_backend():422] resuming backend
+2024-04-08 14:18:27,908 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-08 14:18:27,909 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
+2024-04-08 14:18:27,924 INFO    MainThread:24424 [wandb_init.py:_resume_backend():422] resuming backend
+2024-04-08 14:18:29,019 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-08 14:18:29,020 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
+2024-04-08 14:18:29,027 INFO    MainThread:24424 [wandb_init.py:_resume_backend():422] resuming backend
+2024-04-08 14:18:29,111 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-08 14:18:29,112 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
+2024-04-08 14:18:29,122 INFO    MainThread:24424 [wandb_init.py:_resume_backend():422] resuming backend
+2024-04-08 14:18:29,125 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-08 14:18:29,125 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
+2024-04-08 14:18:29,135 INFO    MainThread:24424 [wandb_init.py:_resume_backend():422] resuming backend
+2024-04-08 14:18:33,777 INFO    MainThread:24424 [wandb_run.py:_tensorboard_callback():1396] tensorboard callback: 5gdl/SAC_94, True
+2024-04-08 14:18:33,971 INFO    MainThread:24424 [wandb_watch.py:watch():51] Watching
+2024-04-08 14:18:33,972 INFO    MainThread:24424 [wandb_run.py:_config_callback():1251] config_cb None None {'algo': 'SAC', 'policy_class': "<class 'stable_baselines3.sac.policies.SACPolicy'>", 'device': 'cuda', 'verbose': 1, 'policy_kwargs': "{'net_arch': {'pi': [64, 64], 'qf': [256, 256]}, 'use_sde': False}", 'num_timesteps': 0, '_total_timesteps': 10000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1712578709138796000, 'learning_rate': '<function linear_schedule.<locals>.func at 0x000001927BA8D4C0>', 'tensorboard_log': '5gdl/', '_last_obs': '[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.\n  0. 0.]]', '_last_episode_starts': '[ True]', '_last_original_obs': '[[ 79.313675   79.313675   78.22269    78.22269   143.29907   143.30093\n  143.29907   143.30093    79.31987    79.31987    78.23214    78.23214\n  143.29904   143.30096   143.29904   143.30096    -7.5912757 -10.117567\n    9.723787  -12.101406    0.          0.          0.          0.\n    0.          0.       ]]', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 0.8070001, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 2739798, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x00000192AB3B6D00>', '_vec_normalize_env': 'None', 'observation_space': 'Box([ 70.64  70.64  70.64  70.64 136.8  136.8  136.8  136.8   70.64  70.64\n  70.64  70.64 136.8  136.8  136.8  136.8  -45.   -45.   -45.   -45.\n -45.   -45.   -45.   -45.   -45.   -45.  ], [ 84.14  84.14  84.14  84.14 148.8  148.8  148.8  148.8   84.14  84.14\n  84.14  84.14 148.8  148.8  148.8  148.8   45.    45.    45.    45.\n  45.    45.    45.    45.    45.    45.  ], (26,), float32)', 'action_space': 'Box(-100.0, 100.0, (10,), float32)', 'n_envs': 1, 'buffer_size': 1000000, 'batch_size': 256, 'learning_starts': 100, 'tau': 0.005, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x00000192AB3BBCD0>', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'train_freq': "TrainFreq(frequency=1, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'use_sde_at_warmup': 'False', 'target_entropy': -10.0, 'log_ent_coef': "tensor([-4.1878], device='cuda:0', requires_grad=True)", 'ent_coef': 'auto', 'target_update_interval': 1, 'ent_coef_optimizer': 'Adam (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    lr: 8.070001e-06\n    maximize: False\n    weight_decay: 0\n)', 'lr_schedule': '<function linear_schedule.<locals>.func at 0x000001927BA8D4C0>', 'batch_norm_stats': '[]', 'batch_norm_stats_target': '[]', 'policy': 'SACPolicy(\n  (actor): Actor(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (latent_pi): Sequential(\n      (0): Linear(in_features=26, out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n    )\n    (mu): Linear(in_features=64, out_features=10, bias=True)\n    (log_std): Linear(in_features=64, out_features=10, bias=True)\n  )\n  (critic): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n  (critic_target): ContinuousCritic(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (qf0): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n    (qf1): Sequential(\n      (0): Linear(in_features=36, out_features=256, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=256, out_features=256, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=256, out_features=1, bias=True)\n    )\n  )\n)', 'actor': 'Actor(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (latent_pi): Sequential(\n    (0): Linear(in_features=26, out_features=64, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64, bias=True)\n    (3): ReLU()\n  )\n  (mu): Linear(in_features=64, out_features=10, bias=True)\n  (log_std): Linear(in_features=64, out_features=10, bias=True)\n)', 'critic': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', 'critic_target': 'ContinuousCritic(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (qf0): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n  (qf1): Sequential(\n    (0): Linear(in_features=36, out_features=256, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=256, out_features=256, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=256, out_features=1, bias=True)\n  )\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001927C70E3A0>'}
+2024-04-08 14:35:04,202 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 14:54:43,855 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 15:11:49,082 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 15:29:07,767 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 15:45:32,460 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 16:02:09,860 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 16:17:37,810 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 16:32:20,823 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 16:46:41,879 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 17:00:35,665 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 17:13:27,706 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 17:26:48,826 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 17:40:30,340 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 17:55:01,617 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 18:09:15,266 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 18:23:58,292 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 18:38:10,693 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 18:51:35,766 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 19:05:56,779 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 19:20:06,284 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 19:33:35,371 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 19:47:18,594 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 20:01:00,732 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 20:14:55,098 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 20:27:25,001 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 20:39:06,925 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 20:50:31,870 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 21:03:44,798 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 21:16:01,675 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 21:28:29,911 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 21:42:18,984 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 21:55:21,872 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 22:07:42,258 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 22:19:47,975 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 22:31:57,172 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 22:44:03,128 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 22:58:05,598 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 23:10:25,938 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 23:23:40,971 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 23:36:48,878 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-08 23:49:34,711 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 00:02:12,861 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 00:14:50,980 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 00:27:38,700 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 00:39:27,838 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 00:51:54,295 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 01:04:36,063 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 01:17:09,028 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 01:29:26,608 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 01:42:03,184 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 01:56:09,291 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 02:08:41,820 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 02:21:22,150 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 02:34:26,951 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 02:46:33,759 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 02:59:12,952 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 03:12:17,516 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 03:25:06,888 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 03:37:15,839 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 03:49:28,368 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 04:03:06,494 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 04:16:06,777 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 04:29:14,729 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 04:41:34,116 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 04:54:23,007 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 05:06:01,935 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 05:18:33,607 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 05:31:42,407 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 05:43:41,362 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 05:56:33,152 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 06:09:56,351 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 06:23:48,466 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 06:36:16,325 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 06:49:10,112 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 07:01:27,485 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 07:14:43,198 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 07:27:44,351 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 07:40:07,827 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 07:52:57,827 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 08:06:04,147 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 08:18:41,335 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 08:31:59,591 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 08:44:34,179 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 08:58:12,806 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 09:11:03,879 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 09:24:01,156 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 09:37:28,365 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 09:51:17,713 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 10:03:28,951 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 10:15:06,837 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 10:27:41,798 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 10:41:18,542 INFO    MainThread:24424 [sb3.py:save_model():153] Saving model checkpoint to models5gdl/posZYangleYXmorelr\model.zip
+2024-04-09 10:46:30,762 INFO    MainThread:24424 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-09 10:46:30,763 INFO    MainThread:24424 [wandb_init.py:_pause_backend():417] pausing backend
